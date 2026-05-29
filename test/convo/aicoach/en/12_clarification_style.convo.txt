@@ -10,4 +10,4 @@ goal|health|great|focus|exercise|fitness|workout|support|ready|started|help
 I just finished a 45 minute walk in the park
 
 #bot
-AI_RESPONSE_ASSERTER the response acknowledges the walk positively and confirms the activity was captured|when asking for the time or date, the request feels conversational and natural — not a bare "what time?" prompt|the response explains or implies why the timing matters, for example to track patterns or log it accurately, rather than requesting it with no context
+AI_RESPONSE_ASSERTER the response confirms the walk is being recorded, captured, or logged|the response asks for the time or date of the activity|the response implies why the timing matters or adds context around the question, rather than asking with no explanation

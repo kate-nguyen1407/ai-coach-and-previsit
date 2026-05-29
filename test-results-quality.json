@@ -3,19 +3,19 @@
   "language": "en",
   "environment": "staging",
   "host": "api.stg.elfie.co",
-  "timestamp": "2026-05-25T06:08:49.917Z",
+  "timestamp": "2026-05-29T08:39:44.680Z",
   "ai_judge": "http://localhost:11434/v1 / llama3.1",
   "summary": {
     "total": 4,
-    "passed": 1,
-    "failed": 3,
-    "duration_ms": 24864
+    "passed": 0,
+    "failed": 4,
+    "duration_ms": 15383
   },
   "scenarios": [
     {
       "name": "12_broad_symptom_prompt — Bot asks ONE broad grouped symptom question covering description + onset + severity",
       "state": "failed",
-      "duration_ms": 1806,
+      "duration_ms": 1811,
       "error": "Broad Grouped Prompt - Symptoms Bundled In One Question/Line 29: Bot response (on Line 26: #me - routine) \"Thank you for clarifying that. Understanding the urgency helps us prioritize your care appropriately. I'd like to understand your symptoms a little better. To help the doctor assess your condition, could you please describe your headaches in more detail?\" expected to match \"(?=.*(?:describe|tell me|feeling|experiencing|what))(?=.*(?:when|started|how long|begin|ago|duration))(?=.*(?:strong|intense|severe|scale|worse|better|changing|impact|affect))\"",
       "transcript": [
         {
@@ -76,13 +76,93 @@
     },
     {
       "name": "13_natural_transition — Bot transitions between focus areas with acknowledgment and context",
-      "state": "passed",
-      "duration_ms": 19814
+      "state": "failed",
+      "duration_ms": 9937,
+      "error": "Natural Transition - Symptom Acknowledgment Into Medical History/Line 35: assertion error - Line 35: AI Response Asserter FAILED – \"1. explicitly acknowledges or reflects back the symptom information just shared\" – The response does not explicitly acknowledge or reflect back on the specific details of chest tightness mentioned; \"3. does not ask multiple questions at once in the transition turn\" – The response asks two questions at once",
+      "transcript": [
+        {
+          "role": "bot",
+          "text": "Hello! I'm here to help you get ready for your visit today. To start, could you please tell me your name?"
+        },
+        {
+          "role": "user",
+          "text": "Test User"
+        },
+        {
+          "role": "bot",
+          "text": "Thanks, Test User.\nWe'll go through a few simple questions about your health concerns, symptoms, medications, and anything else that may help the care team prepare ahead of time.\nOnce we have enough information, I'll prepare:\n- a summary for the clinic team\n- and a copy for you to review yourself\nYou can also ask me to submit it anytime during the conversation.\nAnd if there’s something important you want the doctor to focus on today, feel free to mention it anytime as we go along.\nShall we get started?"
+        },
+        {
+          "role": "user",
+          "text": "Yes"
+        },
+        {
+          "role": "bot",
+          "text": "Great, let's get started. To help us get to know you better, could you please share your gender and age?"
+        },
+        {
+          "role": "user",
+          "text": "Male"
+        },
+        {
+          "role": "bot",
+          "text": "Thank you for sharing that. To complete your profile, could you please tell me your age? Knowing your age helps our team better understand your health needs and tailor your care appropriately."
+        },
+        {
+          "role": "user",
+          "text": "50"
+        },
+        {
+          "role": "bot",
+          "text": "Thank you for providing that information. Let's start with what brings you in today. Understanding your primary concern helps our team prepare for your visit and ensures we address your needs effectively. Could you please describe the main reason for your visit today?"
+        },
+        {
+          "role": "user",
+          "text": "I have been experiencing chest tightness for a week"
+        },
+        {
+          "role": "bot",
+          "text": "I understand you've been dealing with chest tightness, and I appreciate you sharing that with me. Since this is a new concern, it's important we gauge the urgency to ensure you get the right level of care. Regarding your visit today, would you classify your need as Routine, Urgent, or Emergency? This helps us prioritize your care appropriately."
+        },
+        {
+          "role": "user",
+          "text": "routine"
+        },
+        {
+          "role": "bot",
+          "text": "Thank you for clarifying that your visit is routine; I've noted that for the team. Understanding the nature of your symptoms helps the doctor prepare for your visit more effectively. To better understand your chest tightness, could you describe what the sensation feels like and when you first noticed it? This information helps us assess your situation more accurately."
+        },
+        {
+          "role": "user",
+          "text": "The tightness comes and goes, started about a week ago, I would say a 4 out of 10, no radiating pain or shortness of breath"
+        },
+        {
+          "role": "bot",
+          "text": "Thank you for sharing those details about your chest tightness; I have noted that for your care team. Since you've provided a clear picture of your current symptoms, let's move on to your background. To give the doctor helpful background, I'd like to understand a little about your health history as well. Could you tell me if you have any chronic conditions, such as high blood pressure or diabetes? This helps the doctor understand your overall health profile and provide safer, more personalized care.",
+          "ai_judge": [
+            {
+              "criterion": "1. explicitly acknowledges or reflects back the symptom information just shared",
+              "verdict": "FAIL",
+              "reason": "The response does not explicitly acknowledge or reflect back on the specific details of chest tightness mentioned"
+            },
+            {
+              "criterion": "2. transition feels natural and conversational",
+              "verdict": "PASS",
+              "reason": ""
+            },
+            {
+              "criterion": "3. does not ask multiple questions at once in the transition turn",
+              "verdict": "FAIL",
+              "reason": "The response asks two questions at once"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "14_submission_format — Closing message is collaborative: clinic summary + patient copy + next steps",
       "state": "failed",
-      "duration_ms": 1704,
+      "duration_ms": 2052,
       "error": "Submission Format - Collaborative Completion Message/Line 41: Bot response (on Line 38: #me - No questions for the doctor) \"You have completed all information, download summary\" expected to match \"(?=.*(?:all set|completed|ready|prepared|clinic|summary))(?=.*(?:copy|review|missing|incorrect|clarify|correct))(?=.*(?:help|question|understand|prepare|elfie|next|visit|discuss|anything))\"",
       "transcript": [
         {
@@ -160,7 +240,7 @@
     {
       "name": "15_patient_redirect — Off-topic patient request handled gracefully with choice offered",
       "state": "failed",
-      "duration_ms": 1540,
+      "duration_ms": 1583,
       "error": "Patient Redirect - Graceful Handling of Off-Topic Request/Line 35: Bot response (on Line 32: #me - Can you tell me what might be causing my stomach problems?) \"I understand you are looking for some clarity on your stomach issues, and I am here to help you get that information ready for your visit. To better understand your symptoms, could you describe the stomach problems you have been experiencing? This helps the doctor prepare for your consultation and ensures we address your concerns effectively.\" expected to match \"(?=.*(?:help|happy|glad|sure|can|understand|absolutely))(?=.*(?:finish|first|continue|preparation|summary|clinic|complete|before|then|after))\"",
       "transcript": [
         {

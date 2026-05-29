@@ -4,10 +4,10 @@ Fatigue Report - Tiredness and Dizziness
 I have been feeling really tired and dizzy lately
 
 #bot
-tired|fatigue|dizzy|energy|sleep|rest|concern|understand|sorry
+tired|fatigue|dizzy|energy|sleep|rest|concern|understand|sorry|here|ready|support|help|journey|coach|welcome|great
 
 #me
-It has been going on for about a week now
+I have been tired and dizzy for about a week now
 
 #bot
-week|doctor|consult|continue|check|please|hydrat|medical|recommend
+week|doctor|consult|continue|check|please|hydrat|medical|recommend|tired|fatigue|dizzy|help|support

@@ -98,12 +98,14 @@ function buildCaps () {
 
     SIMPLEREST_BODY_TEMPLATE: {
       session_id: '{{context.sessionId}}',
-      user_id: 'botium-test-user',
+      user_id: '{{context.userId}}',
       message: '{{msg.messageText}}',
       language_code: '{{context.languageCode}}'
     },
 
     SIMPLEREST_RESPONSE_JSONPATH: '$.message,$.code',
+    SIMPLEREST_INIT_TEXT: false,
+    SIMPLEREST_INIT_PROCESS_RESPONSE: false,
     SCRIPTING_MATCHING_MODE: 'regexpIgnoreCase',
 
     SIMPLEREST_START_HOOK: path.resolve(__dirname, '../../botium-hook-ai-coach.js'),
