@@ -1,0 +1,19 @@
+Food Logging - Single Meal Entry
+
+#me
+I want to track my nutrition and food intake
+
+#bot
+goal|health|great|focus|nutrition|food|diet|support|ready|started|help
+
+#me
+I ate 2 eggs and some toast for breakfast
+
+#bot
+breakfast|protein|meal|logged|recorded|noted|nutrition|egg|time|when|date
+
+#me
+It was around 8:00 AM this morning
+
+#bot
+thank you|noted|logged|morning|time|track|great|recorded|BACKEND_SEARCH_NUTRITION

@@ -1,0 +1,49 @@
+Medical History - Chronic Conditions Surgeries Family History
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Female
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+30
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have been having lower back pain for three weeks
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|emergency))
+
+#me
+routine
+
+#bot
+(?=.*(?:noted|thank|clarif))(?=.*(?:chronic|condition|illness|disease|medical|history))
+
+#me
+No chronic conditions
+
+#bot
+(?=.*(?:thank|noted|appreciate))(?=.*(?:surgery|surgical|operation|procedure|past))
+
+#me
+No surgeries
+
+#bot
+(?=.*(?:thank|noted|appreciate))(?=.*(?:family|relative|hereditary|parent|history))
+
+#me
+No family history
+
+#bot
+(?=.*(?:thank|noted|family|completed))(?=.*(?:download|summary|doctor|visit|review))
+

@@ -1,0 +1,13 @@
+Fatigue Report - Tiredness and Dizziness
+
+#me
+I have been feeling really tired and dizzy lately
+
+#bot
+tired|fatigue|dizzy|energy|sleep|rest|concern|understand|sorry
+
+#me
+It has been going on for about a week now
+
+#bot
+week|doctor|consult|continue|check|please|hydrat|medical|recommend

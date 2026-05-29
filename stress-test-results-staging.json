@@ -1,0 +1,407 @@
+{
+  "scenario": "09_closing",
+  "env": "staging",
+  "host": "care.stg.elfie.co",
+  "runAt": "2026-05-15T10:45:21.272Z",
+  "rampSteps": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    120,
+    140,
+    160,
+    180,
+    200
+  ],
+  "waves": [
+    {
+      "concurrency": 10,
+      "successCount": 10,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 1157,
+      "turn": {
+        "avg": 43,
+        "p50": 35,
+        "p95": 58,
+        "p99": 229,
+        "max": 249,
+        "min": 31
+      },
+      "session": {
+        "avg": 1035,
+        "p50": 1026,
+        "p95": 1147,
+        "p99": 1147,
+        "max": 1147,
+        "min": 962
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 20,
+      "successCount": 20,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 1249,
+      "turn": {
+        "avg": 47,
+        "p50": 38,
+        "p95": 96,
+        "p99": 180,
+        "max": 211,
+        "min": 30
+      },
+      "session": {
+        "avg": 1134,
+        "p50": 1147,
+        "p95": 1202,
+        "p99": 1246,
+        "max": 1246,
+        "min": 901
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 30,
+      "successCount": 30,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 1803,
+      "turn": {
+        "avg": 65,
+        "p50": 42,
+        "p95": 209,
+        "p99": 291,
+        "max": 460,
+        "min": 31
+      },
+      "session": {
+        "avg": 1549,
+        "p50": 1579,
+        "p95": 1757,
+        "p99": 1799,
+        "max": 1799,
+        "min": 1090
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 40,
+      "successCount": 40,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 1781,
+      "turn": {
+        "avg": 62,
+        "p50": 46,
+        "p95": 98,
+        "p99": 524,
+        "max": 623,
+        "min": 30
+      },
+      "session": {
+        "avg": 1479,
+        "p50": 1477,
+        "p95": 1719,
+        "p99": 1773,
+        "max": 1773,
+        "min": 1113
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 50,
+      "successCount": 50,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 2231,
+      "turn": {
+        "avg": 82,
+        "p50": 64,
+        "p95": 198,
+        "p99": 512,
+        "max": 575,
+        "min": 31
+      },
+      "session": {
+        "avg": 1971,
+        "p50": 2107,
+        "p95": 2197,
+        "p99": 2228,
+        "max": 2228,
+        "min": 1116
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 60,
+      "successCount": 54,
+      "failCount": 6,
+      "successRate": 90,
+      "waveMs": 1930,
+      "turn": {
+        "avg": 68,
+        "p50": 50,
+        "p95": 158,
+        "p99": 536,
+        "max": 569,
+        "min": 30
+      },
+      "session": {
+        "avg": 1485,
+        "p50": 1568,
+        "p95": 1846,
+        "p99": 1921,
+        "max": 1921,
+        "min": 106
+      },
+      "totalTurnErrs": 6,
+      "errorSamples": [
+        "create-session failed: {\"statusCode\":500,\"message\":\"Internal server error\"}",
+        "create-session failed: {\"statusCode\":500,\"message\":\"Internal server error\"}",
+        "create-session failed: {\"statusCode\":500,\"message\":\"Internal server error\"}"
+      ]
+    },
+    {
+      "concurrency": 70,
+      "successCount": 70,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 2763,
+      "turn": {
+        "avg": 96,
+        "p50": 72,
+        "p95": 201,
+        "p99": 818,
+        "max": 888,
+        "min": 31
+      },
+      "session": {
+        "avg": 2309,
+        "p50": 2412,
+        "p95": 2617,
+        "p99": 2756,
+        "max": 2756,
+        "min": 1678
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 80,
+      "successCount": 80,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 3431,
+      "turn": {
+        "avg": 123,
+        "p50": 85,
+        "p95": 493,
+        "p99": 810,
+        "max": 872,
+        "min": 32
+      },
+      "session": {
+        "avg": 2961,
+        "p50": 3064,
+        "p95": 3253,
+        "p99": 3421,
+        "max": 3421,
+        "min": 2353
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 90,
+      "successCount": 90,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 3335,
+      "turn": {
+        "avg": 114,
+        "p50": 79,
+        "p95": 261,
+        "p99": 939,
+        "max": 972,
+        "min": 30
+      },
+      "session": {
+        "avg": 2732,
+        "p50": 2804,
+        "p95": 3194,
+        "p99": 3330,
+        "max": 3330,
+        "min": 1818
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 100,
+      "successCount": 100,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 5280,
+      "turn": {
+        "avg": 157,
+        "p50": 87,
+        "p95": 612,
+        "p99": 808,
+        "max": 1122,
+        "min": 31
+      },
+      "session": {
+        "avg": 3767,
+        "p50": 4446,
+        "p95": 5029,
+        "p99": 5131,
+        "max": 5269,
+        "min": 2423
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 120,
+      "successCount": 120,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 9565,
+      "turn": {
+        "avg": 229,
+        "p50": 57,
+        "p95": 505,
+        "p99": 6618,
+        "max": 6642,
+        "min": 30
+      },
+      "session": {
+        "avg": 5503,
+        "p50": 2837,
+        "p95": 9445,
+        "p99": 9525,
+        "max": 9563,
+        "min": 1300
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 140,
+      "successCount": 140,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 8107,
+      "turn": {
+        "avg": 214,
+        "p50": 79,
+        "p95": 1342,
+        "p99": 1759,
+        "max": 2218,
+        "min": 31
+      },
+      "session": {
+        "avg": 5142,
+        "p50": 5657,
+        "p95": 7838,
+        "p99": 7971,
+        "max": 8097,
+        "min": 1868
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 160,
+      "successCount": 160,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 6792,
+      "turn": {
+        "avg": 192,
+        "p50": 93,
+        "p95": 841,
+        "p99": 1232,
+        "max": 1691,
+        "min": 32
+      },
+      "session": {
+        "avg": 4600,
+        "p50": 4707,
+        "p95": 6534,
+        "p99": 6661,
+        "max": 6757,
+        "min": 2032
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 180,
+      "successCount": 180,
+      "failCount": 0,
+      "successRate": 100,
+      "waveMs": 10655,
+      "turn": {
+        "avg": 271,
+        "p50": 59,
+        "p95": 1806,
+        "p99": 2657,
+        "max": 2709,
+        "min": 30
+      },
+      "session": {
+        "avg": 6509,
+        "p50": 7360,
+        "p95": 10487,
+        "p99": 10614,
+        "max": 10654,
+        "min": 1059
+      },
+      "totalTurnErrs": 0,
+      "errorSamples": []
+    },
+    {
+      "concurrency": 200,
+      "successCount": 198,
+      "failCount": 2,
+      "successRate": 99,
+      "waveMs": 9952,
+      "turn": {
+        "avg": 265,
+        "p50": 80,
+        "p95": 1504,
+        "p99": 2163,
+        "max": 2323,
+        "min": 31
+      },
+      "session": {
+        "avg": 6300,
+        "p50": 6775,
+        "p95": 9779,
+        "p99": 9911,
+        "max": 9933,
+        "min": 227
+      },
+      "totalTurnErrs": 2,
+      "errorSamples": [
+        "create-session failed: {\"raw\":\"upstream connect error or disconnect/reset before headers. reset reason: connection termination\"}",
+        "create-session failed: {\"raw\":\"upstream connect error or disconnect/reset before headers. reset reason: connection termination\"}"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+Lifestyle - Smoking Alcohol Exercise Diet Sleep Stress
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Female
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+33
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have been getting dizzy spells for a week
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|emergency))
+
+#me
+Routine visit
+
+#bot
+(?=.*(?:noted|thank|clarif))(?=.*(?:smoke|tobacco|cigarette|lifestyle|habit))
+
+#me
+I don't smoke
+
+#bot
+(?=.*(?:smoke|tobacco|noted|thank))(?=.*(?:alcohol|drink|beverage))
+
+#me
+I drink socially, maybe once a week
+
+#bot
+(?=.*(?:alcohol|drink|noted|thank))(?=.*(?:exercise|physical|activity|active|workout|movement))
+
+#me
+I walk about 30 minutes every day
+
+#bot
+(?=.*(?:walk|exercise|activity|noted|thank))(?=.*(?:diet|nutrition|eat|food|meal))
+
+#me
+I eat normally, cook at home most days
+
+#bot
+(?=.*(?:diet|eat|nutrition|noted|thank))(?=.*(?:sleep|rest|hours|night))
+
+#me
+About 7 hours a night
+
+#bot
+(?=.*(?:sleep|rest|noted|thank))(?=.*(?:stress|mental|emotional|well-being|pressure))
+
+#me
+Moderate stress from work
+
+#bot
+(?=.*(?:stress|work|noted|thank))(?=.*(?:well-being|balance|completed|summary|doctor|done|care))
+

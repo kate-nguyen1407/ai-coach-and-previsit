@@ -1,0 +1,25 @@
+Blood Pressure Logging
+
+#me
+I want to manage my blood pressure
+
+#bot
+goal|health|great|focus|blood pressure|support|ready|started|help
+
+#me
+My blood pressure is 120 over 80
+
+#bot
+blood pressure|recorded|logged|noted|120|80|track|update|time|when|date
+
+#me
+I took it at 8:00 AM this morning
+
+#bot
+blood pressure|recorded|logged|noted|thank|updated|8|time|when|date|pulse|heart
+
+#me
+My pulse was 72
+
+#bot
+blood pressure|recorded|logged|noted|thank|updated|pulse|72|heart|saved

@@ -1,0 +1,19 @@
+Hydration Logging
+
+#me
+I want to track my daily hydration
+
+#bot
+goal|health|great|focus|hydration|water|support|ready|started|help
+
+#me
+I just drank 300ml of water
+
+#bot
+water|hydration|recorded|logged|noted|300|drink|track|update|time|when|date
+
+#me
+I drank it at 10:00 AM this morning
+
+#bot
+water|hydration|recorded|logged|noted|thank|updated|time|when|date

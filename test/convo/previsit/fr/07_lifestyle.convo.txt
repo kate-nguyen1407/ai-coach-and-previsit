@@ -1,0 +1,73 @@
+Lifestyle FR - Smoking Alcohol Exercise Diet Sleep Stress
+
+#include _opening
+
+#bot
+(?=.*(?:genre|sexe))(?=.*(?:partager|âge|votre|pourriez|pouvez))
+
+#me
+Femme
+
+#bot
+(?=.*(?:âge|ans))(?=.*(?:quel|votre|avez-vous|pouvez|préciser))
+
+#me
+33
+
+#bot
+(?=.*(?:motif|raison|amène|pourquoi))(?=.*(?:visite|aujourd'hui|médecin|consultation))
+
+#me
+J'ai des vertiges depuis une semaine
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|urgence|urgente))
+
+#me
+Routine
+
+#bot
+(?=.*(?:merci|précis|note|noté|clarifi))(?=.*(?:tabac|fume|cigarette|habitude|lifestyle|mode de vie|vie))
+
+#me
+Je ne fume pas
+
+#bot
+(?=.*(?:fume|tabac|merci|noté))(?=.*(?:alcool|boisson|boire|consommez))
+
+#me
+Je bois occasionnellement, peut-être une fois par semaine
+
+#bot
+(?=.*(?:alcool|merci|noté))(?=.*(?:exerc|activit|physique|sport|mouvement))
+
+#me
+Je marche environ 30 minutes tous les jours
+
+#bot
+(?=.*(?:march|activit|exercic|merci|noté))(?=.*(?:aliment|régime|repas|nourriture|manger))
+
+#me
+Je mange normalement, je cuisine à la maison la plupart du temps
+
+#bot
+(?=.*(?:alimentation|aliment|merci|noté))(?=.*(?:sommeil|repos|nuit|dormir))
+
+#me
+Environ 7 heures par nuit
+
+#bot
+(?=.*(?:sommeil|repos|merci|noté))(?=.*(?:stress|pression|bien-être|mental))
+
+#me
+Stress modéré au travail
+
+#bot
+(?=.*(?:stress|bien-être|travail|merci))(?=.*(?:routine|urgent|urgence|situation|mieux))
+
+#me
+Routine
+
+#bot
+(?=.*(?:rempli|complété|merci|noté|clarifi|téléchargez))(?=.*(?:résumé|complété|suite|médecin|visite|téléchargez|informations))
+

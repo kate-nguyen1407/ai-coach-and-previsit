@@ -1,0 +1,61 @@
+Medication FR - With Medications and Allergy
+
+#include _opening
+
+#bot
+(?=.*(?:genre|sexe))(?=.*(?:partager|âge|votre|pourriez|pouvez))
+
+#me
+Femme
+
+#bot
+(?=.*(?:âge|ans))(?=.*(?:quel|votre|avez-vous|pouvez|préciser))
+
+#me
+35
+
+#bot
+(?=.*(?:motif|raison|amène|pourquoi))(?=.*(?:visite|aujourd'hui|médecin|consultation))
+
+#me
+J'ai des maux de tête depuis une semaine
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|urgence|urgente))
+
+#me
+Routine
+
+#bot
+(?=.*(?:merci|précis|noté|clarifi))(?=.*(?:médicament|traitement|prescrit|ordonnance|actuellement))
+
+#me
+Je prends de l'ibuprofène occasionnellement pour les maux de tête
+
+#bot
+(?=.*(?:ibuprofène|médicament|noté))(?=.*(?:régulier|prescrit|consistance|prenez|toujours))
+
+#me
+Seulement si nécessaire pour les douleurs
+
+#bot
+(?=.*(?:merci|clarifi|adherence))(?=.*(?:allergi|sensibilité|réaction))
+
+#me
+Je suis allergique à la pénicilline
+
+#bot
+(?=.*(?:allergie|pénicilline|noté|sécurité|merci))(?=.*(?:traitement|efficace|prise en charge|prescriptions|médecin|question|ajust))
+
+#me
+Le repos aide un peu
+
+#bot
+(?=.*(?:repos|soulagement|noté))(?=.*(?:question|médecin|préoccupation|discuter|visite))
+
+#me
+Pas de questions pour le médecin
+
+#bot
+(?=.*(?:complété|téléchargez|résumé|rempli))(?=.*(?:rempli|informations|médecin|visite|prêt|review|résumé))
+

@@ -1,0 +1,55 @@
+Medication - With Medications and Allergy
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Female
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+35
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have been having headaches for a week
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|emergency))
+
+#me
+routine
+
+#bot
+(?=.*(?:noted|thank|clarif|routine))(?=.*(?:question|doctor|concern|specific|anything|address))
+
+#me
+I take ibuprofen occasionally for pain. I am also allergic to penicillin.
+
+#bot
+(?=.*(?:thank|noted|allerg|penicillin))(?=.*(?:consistent|regularly|prescrib|adherence|often|routine|medication))
+
+#me
+Only as needed for pain
+
+#bot
+(?=.*(?:appreciate|noted|clarif|thank))(?=.*(?:effective|effectiveness|working|relief|better|worse|treatment|care))
+
+#me
+Somewhat effective for the headaches
+
+#bot
+(?=.*(?:noted|thank|clarif|effective))(?=.*(?:question|doctor|concern|allerg|other|complete|summary|download|information|visit))
+
+#me
+No other concerns
+
+#bot
+(?=.*(?:completed|finished|download|summary))(?=.*(?:information|download|all|summary|ready|doctor|visit))
+

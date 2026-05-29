@@ -1,0 +1,13 @@
+Off-Topic Redirect - Out-of-Scope Request Handled Gracefully
+
+#me
+I want to improve my overall health and nutrition
+
+#bot
+goal|health|great|focus|nutrition|diet|support|ready|started|help
+
+#me
+Can you write me a full 7-day meal plan with calorie counts?
+
+#bot
+AI_RESPONSE_ASSERTER the response does not simply refuse or say it cannot help — it acknowledges what the user is trying to achieve|the response explains what the AI coach can do instead, such as logging meals, tracking nutrition intake, or providing general dietary guidance|the response gives the user a clear path forward within its capabilities, so the user does not feel blocked or dismissed|the tone is helpful and supportive, not apologetic or robotic

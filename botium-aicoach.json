@@ -1,0 +1,25 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "AI Coach",
+      "CONTAINERMODE": "simplerest",
+      "SECURITY_ALLOW_UNSAFE": true,
+      "SIMPLEREST_URL": "https://api.stg.elfie.co/agent/api/v1/ai-coach/chat",
+      "SIMPLEREST_METHOD": "POST",
+      "SIMPLEREST_HEADERS_TEMPLATE": {
+        "Content-Type": "application/json",
+        "x-api-key": ""
+      },
+      "SIMPLEREST_BODY_TEMPLATE": {
+        "session_id": "{{context.sessionId}}",
+        "user_id": "botium-test-user",
+        "message": "{{msg.messageText}}",
+        "language_code": "{{context.languageCode}}"
+      },
+      "SIMPLEREST_RESPONSE_JSONPATH": "$.message,$.code",
+      "SCRIPTING_MATCHING_MODE": "regexpIgnoreCase",
+      "SIMPLEREST_START_HOOK": "/Users/katenguyen/Downloads/botium/botium-core/botium-hook-ai-coach.js",
+      "SIMPLEREST_TIMEOUT": 60000
+    }
+  }
+}

@@ -1,0 +1,42 @@
+Mental Emotional - Anxiety Low Mood Empathy Check
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Female
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+27
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have been feeling unwell for a few weeks
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|emergency))
+
+#me
+routine
+
+#bot
+(?=.*(?:noted|thank|clarif))(?=.*(?:question|doctor|concern|mention|share|add|anything))
+
+#me
+I have been feeling quite anxious and low lately
+
+#bot
+(?=.*(?:question|concern|anything|else|specific))(?=.*(?:doctor|visit|today|discuss))
+
+#me
+No questions
+
+#bot
+(?=.*(?:completed|finished|thank|noted|understood))(?=.*(?:download|summary|information|ready|doctor|visit))

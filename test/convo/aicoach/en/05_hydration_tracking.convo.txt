@@ -1,0 +1,25 @@
+Hydration Tracking - Daily Water Intake
+
+#me
+I want to track my daily hydration
+
+#bot
+goal|health|great|focus|hydration|water|support|ready|started|help
+
+#me
+I drank 2 liters of water today
+
+#bot
+water|hydrat|great|goal|intake|liter|drink|good|time|when|date
+
+#me
+Around 10:00 AM this morning
+
+#bot
+water|hydrat|noted|logged|recorded|thank|great|drink|time|when
+
+#me
+Is that enough water for an average adult?
+
+#bot
+recommend|liter|hydrat|body|goal|general|adequate|adult|suggest|day

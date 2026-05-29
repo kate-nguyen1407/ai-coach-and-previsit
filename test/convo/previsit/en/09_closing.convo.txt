@@ -1,0 +1,79 @@
+Closing - Summary Generated Guided Next Steps
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Male
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+45
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have a rash on my arm that has been there for five days
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|emergency))
+
+#me
+routine
+
+#bot
+(?=.*(?:noted|thank|clarif))(?=.*(?:symptom|describe|detail|rash|pain|experience))
+
+#me
+The rash is red and slightly raised, no itching
+
+#bot
+(?=.*(?:thank|noted|rash))(?=.*(?:onset|when|start|begin|how long|duration|time))
+
+#me
+Five days ago
+
+#bot
+(?=.*(?:thank|noted|timeline))(?=.*(?:severity|scale|intense|level|rate|impact))
+
+#me
+3 out of 10
+
+#bot
+(?=.*(?:thank|noted|severity))(?=.*(?:chronic|condition|illness|health|history))
+
+#me
+No chronic conditions, no history of serious illness
+
+#bot
+(?=.*(?:thank|noted|appreciate|chronic))(?=.*(?:surgery|surgical|procedure|operation|family|background))
+
+#me
+No surgeries, no major procedures, no relevant family history
+
+#bot
+(?=.*(?:thank|noted|appreciate|surgical))(?=.*(?:medication|medicine|drug|treatment|allerg))
+
+#me
+I don't take any medications, no supplements, no vitamins, no allergies to anything
+
+#bot
+(?=.*(?:thank|noted|medication|allerg))(?=.*(?:lifestyle|habit|factor|smoke|rest|relief))
+
+#me
+Rest helps a bit with the rash
+
+#bot
+(?=.*(?:rest|relief|lifestyle|noted))(?=.*(?:smoke|exercise|diet|sleep|stress|habit|lifestyle))
+
+#me
+I don't smoke, I don't drink, I exercise twice a week, I eat normally, I sleep 7 hours, low stress
+
+#bot
+(?=.*(?:completed|finished|download|summary))(?=.*(?:information|download|all|summary|ready|doctor|visit))
+

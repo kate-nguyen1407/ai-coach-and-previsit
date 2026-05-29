@@ -1,0 +1,37 @@
+Mental Emotional VI - Anxiety Low Mood Empathy Check
+
+#include _opening
+
+#bot
+(?=.*(?:giới tính))(?=.*(?:nam|nữ|chia sẻ|cho biết|của bạn))
+
+#me
+Nữ
+
+#bot
+(?=.*(?:tuổi))(?=.*(?:bao nhiêu|cho biết|chia sẻ|của bạn|hiện tại))
+
+#me
+27
+
+#bot
+(?=.*(?:lý do|khám|mục đích))(?=.*(?:hôm nay|bác sĩ|chia sẻ|cho biết|viếng thăm))
+
+#me
+Tôi cảm thấy không khỏe trong vài tuần
+
+#bot
+(?=.*(?:thông thường))(?=.*(?:khẩn cấp|cấp cứu))
+
+#me
+Thông thường
+
+#bot
+(?=.*(?:ghi nhận|cảm ơn))(?=.*(?:câu hỏi|bác sĩ|chia sẻ|đề cập|thêm|muốn))
+
+#me
+Tôi cảm thấy khá lo lắng và buồn dạo này
+
+#bot
+(?=.*(?:hoàn tất|tải xuống|cảm ơn|hiểu|cập nhật|tinh thần))(?=.*(?:hoàn tất|tải xuống|tóm tắt|bác sĩ|khám))
+

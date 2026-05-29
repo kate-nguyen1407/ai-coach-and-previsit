@@ -1,0 +1,13 @@
+Clarification Style - Natural Time Request After Exercise Log
+
+#me
+I want to track my exercise and fitness routine
+
+#bot
+goal|health|great|focus|exercise|fitness|workout|support|ready|started|help
+
+#me
+I just finished a 45 minute walk in the park
+
+#bot
+AI_RESPONSE_ASSERTER the response acknowledges the walk positively and confirms the activity was captured|when asking for the time or date, the request feels conversational and natural — not a bare "what time?" prompt|the response explains or implies why the timing matters, for example to track patterns or log it accurately, rather than requesting it with no context

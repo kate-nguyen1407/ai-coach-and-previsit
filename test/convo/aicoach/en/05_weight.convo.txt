@@ -1,0 +1,13 @@
+Weight Logging
+
+#me
+I want to track my weight
+
+#bot
+goal|health|great|focus|weight|support|ready|started|help
+
+#me
+My weight today is 68 kg
+
+#bot
+weight|recorded|logged|noted|68|kg|track|update

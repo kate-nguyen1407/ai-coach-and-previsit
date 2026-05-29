@@ -1,0 +1,127 @@
+Post Summary - New Information After Summary
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Female
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+38
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have been having knee pain for two weeks
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|emergency))
+
+#me
+routine
+
+#bot
+(?=.*(?:noted|thank|clarif))(?=.*(?:symptom|describe|detail|pain|knee|experience|condition))
+
+#me
+The knee pain is dull and aching in the left knee, started two weeks ago, around a 5 out of 10, gets worse when walking for long periods
+
+#bot
+(?=.*(?:noted|thank|appreciate))(?=.*(?:chronic|condition|illness|health|history))
+
+#me
+No chronic conditions
+
+#bot
+(?=.*(?:thank|noted|appreciate))(?=.*(?:surgery|surgical|operation|procedure|chronic))
+
+#me
+No surgeries
+
+#bot
+(?=.*(?:thank|noted))(?=.*(?:family|relative|hereditary|history|surgical))
+
+#me
+No family history
+
+#bot
+(?=.*(?:thank|noted|appreciate))(?=.*(?:medication|drug|prescription|medicine|symptom|describe|experiencing|concern))
+
+#me
+I don't take any medications
+
+#bot
+(?=.*(?:thank|noted))(?=.*(?:allerg|sensitivity|reaction|medication))
+
+#me
+No allergies
+
+#bot
+(?=.*(?:thank|allerg|noted))(?=.*(?:smoke|tobacco|lifestyle|habit|allerg))
+
+#me
+I don't smoke
+
+#bot
+(?=.*(?:smoke|tobacco|free|thank|noted))(?=.*(?:alcohol|drink|beverage|smoke))
+
+#me
+I don't drink
+
+#bot
+(?=.*(?:alcohol|drink|thank|noted))(?=.*(?:exercise|walk|active|physical|alcohol))
+
+#me
+I walk daily
+
+#bot
+(?=.*(?:walk|exercise|active|thank|noted))(?=.*(?:diet|nutrition|eat|food|walk))
+
+#me
+Normal diet
+
+#bot
+(?=.*(?:diet|eat|nutrition|thank|noted))(?=.*(?:sleep|rest|hours|night|diet))
+
+#me
+Seven hours sleep
+
+#bot
+(?=.*(?:sleep|rest|hour|thank|noted))(?=.*(?:stress|mental|emotional|sleep))
+
+#me
+Low stress
+
+#bot
+(?=.*(?:stress|low|thank|noted))(?=.*(?:mental|emotional|well-being|travel|stress))
+
+#me
+I feel fine mentally
+
+#bot
+(?=.*(?:mental|emotional|thank|noted))(?=.*(?:travel|trip|recently|mental))
+
+#me
+No travel
+
+#bot
+(?=.*(?:travel|thank|noted))(?=.*(?:caregiver|assist|accompany|care|travel))
+
+#me
+No caregiver
+
+#bot
+(?=.*(?:completed|finished|download|summary|caregiver|care|thank|noted))(?=.*(?:information|download|summary|ready|consent|privac|caregiver|concern|question))
+
+#me
+Oh I forgot to mention I have been using a knee brace
+
+#bot
+(?=.*(?:knee|brace|noted))(?=.*(?:knee|joint|brace|support))
+

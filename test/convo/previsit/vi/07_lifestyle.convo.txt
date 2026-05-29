@@ -1,0 +1,73 @@
+Lifestyle VI - Smoking Alcohol Exercise Diet Sleep Stress
+
+#include _opening
+
+#bot
+(?=.*(?:giới tính))(?=.*(?:nam|nữ|chia sẻ|cho biết|của bạn))
+
+#me
+Nữ
+
+#bot
+(?=.*(?:tuổi))(?=.*(?:bao nhiêu|cho biết|chia sẻ|của bạn|hiện tại))
+
+#me
+33
+
+#bot
+(?=.*(?:lý do|khám|mục đích))(?=.*(?:hôm nay|bác sĩ|chia sẻ|cho biết|viếng thăm))
+
+#me
+Tôi bị chóng mặt một tuần nay
+
+#bot
+(?=.*(?:thông thường))(?=.*(?:khẩn cấp|cấp cứu))
+
+#me
+Thông thường
+
+#bot
+(?=.*(?:cảm ơn|ghi nhận))(?=.*(?:thuốc lá|hút thuốc|lối sống|thói quen))
+
+#me
+Tôi không hút thuốc
+
+#bot
+(?=.*(?:cảm ơn|thuốc|hút|ghi nhận))(?=.*(?:rượu|bia|uống|đồ uống))
+
+#me
+Tôi uống rượu xã giao, khoảng một lần mỗi tuần
+
+#bot
+(?=.*(?:cảm ơn|rượu|ghi nhận))(?=.*(?:thể dục|hoạt động|vận động|tập luyện))
+
+#me
+Tôi đi bộ khoảng 30 phút mỗi ngày
+
+#bot
+(?=.*(?:cảm ơn|đi bộ|hoạt động|ghi nhận))(?=.*(?:chế độ ăn|dinh dưỡng|ăn|thực phẩm))
+
+#me
+Tôi ăn uống bình thường, tự nấu ăn hầu hết
+
+#bot
+(?=.*(?:cảm ơn|chế độ ăn|ghi nhận))(?=.*(?:giấc ngủ|ngủ|nghỉ ngơi|tiếng|đêm))
+
+#me
+Khoảng 7 tiếng mỗi đêm
+
+#bot
+(?=.*(?:cảm ơn|ngủ|ghi nhận))(?=.*(?:căng thẳng|stress|áp lực|tinh thần))
+
+#me
+Căng thẳng vừa phải do công việc
+
+#bot
+(?=.*(?:căng thẳng|ghi nhận|tinh thần))(?=.*(?:thông thường|khẩn cấp|cấp cứu|mức độ))
+
+#me
+Thông thường
+
+#bot
+(?=.*(?:hoàn tất|tải xuống|cảm ơn|ghi nhận))(?=.*(?:hoàn tất|tóm tắt|chuẩn bị|bác sĩ|tiếp tục|tải xuống))
+

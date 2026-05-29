@@ -1,0 +1,61 @@
+Medication VI - With Medications and Allergy
+
+#include _opening
+
+#bot
+(?=.*(?:giới tính))(?=.*(?:nam|nữ|chia sẻ|cho biết|của bạn))
+
+#me
+Nữ
+
+#bot
+(?=.*(?:tuổi))(?=.*(?:bao nhiêu|cho biết|chia sẻ|của bạn|hiện tại))
+
+#me
+35
+
+#bot
+(?=.*(?:lý do|khám|mục đích))(?=.*(?:hôm nay|bác sĩ|chia sẻ|cho biết|viếng thăm))
+
+#me
+Tôi bị đau đầu một tuần nay
+
+#bot
+(?=.*(?:thông thường))(?=.*(?:khẩn cấp|cấp cứu))
+
+#me
+Thông thường
+
+#bot
+(?=.*(?:ghi nhận|cảm ơn))(?=.*(?:thuốc|điều trị|đang dùng|toa thuốc|hiện tại))
+
+#me
+Tôi thỉnh thoảng uống ibuprofen cho cơn đau đầu
+
+#bot
+(?=.*(?:ghi nhận|ibuprofen|thuốc))(?=.*(?:thường xuyên|đều đặn|theo chỉ định|nhất quán|tuân thủ|theo đơn|quên))
+
+#me
+Chỉ khi cần thiết để giảm đau
+
+#bot
+(?=.*(?:hiểu|thận trọng|cảm ơn|ghi nhận))(?=.*(?:dị ứng|phản ứng|nhạy cảm|allergi))
+
+#me
+Tôi bị dị ứng penicillin
+
+#bot
+(?=.*(?:dị ứng|penicillin|ghi nhận|an toàn))(?=.*(?:câu hỏi|bác sĩ|lo lắng|an toàn|toa))
+
+#me
+Nghỉ ngơi giúp ích một chút
+
+#bot
+(?=.*(?:nghỉ ngơi|hiệu quả|ghi nhận))(?=.*(?:câu hỏi|bác sĩ|thảo luận|lo lắng|visite))
+
+#me
+Không có câu hỏi cho bác sĩ
+
+#bot
+(?=.*(?:hoàn tất|tải xuống|tóm tắt))(?=.*(?:thông tin|vui lòng|bác sĩ|khám|xem lại|sẵn sàng))
+

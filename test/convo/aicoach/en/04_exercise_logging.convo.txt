@@ -1,0 +1,25 @@
+Exercise Logging - Running Activity
+
+#me
+I want to track my exercise and fitness routine
+
+#bot
+goal|health|great|focus|exercise|fitness|workout|support|ready|started|help
+
+#me
+I just finished 30 minutes of running
+
+#bot
+run|exercise|activity|logged|great|cardio|workout|well done|amazing|time|when|date
+
+#me
+I finished at 7:00 AM this morning
+
+#bot
+run|exercise|activity|logged|great|cardio|workout|noted|thank|recorded
+
+#me
+I try to run three times a week
+
+#bot
+routine|goal|three|consist|well-being|frequen|running|great|keep|thank|logged|workout|feeling

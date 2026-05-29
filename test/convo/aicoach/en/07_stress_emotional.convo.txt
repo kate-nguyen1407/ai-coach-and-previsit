@@ -1,0 +1,13 @@
+Stress and Emotional Wellbeing
+
+#me
+I feel very stressed about work lately
+
+#bot
+stress|work|understand|well-being|relax|breathing|mindful|help|sorry|hear
+
+#me
+It has been affecting my appetite and I am not eating properly
+
+#bot
+appetite|stress|eating|well-being|understand|impact|support|food|nutrition|nourish

@@ -1,0 +1,13 @@
+Medication Logging
+
+#me
+I want to track my medication
+
+#bot
+goal|health|great|focus|medication|medicine|support|ready|started|help
+
+#me
+I took my blood pressure medication this morning
+
+#bot
+BACKEND_SEARCH_DRUG|pillbox|medication|medicine|recorded|logged|noted|taken

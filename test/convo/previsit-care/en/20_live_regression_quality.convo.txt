@@ -1,0 +1,208 @@
+Live Regression Quality Check - Full Pre-Visit Flow EN - Knee Pain
+
+#bot
+(?=.*(?:welcome|hello|hi))(?=.*(?:visit|today|prepare|appointment|start|assist))
+AI_RESPONSE_ASSERTER the opening message is warm and inviting, not clinical or robotic|the message clearly explains the purpose of the conversation (preparing for the doctor visit)|the tone is friendly and puts the patient at ease
+
+#me
+Sure, let's get started
+
+#bot
+(?=.*(?:name|called|introduce|full name))
+
+#me
+James Camel
+
+#bot
+(?=.*(?:thank|nice|great|welcome))(?=.*(?:question|start|ready|go through|shall|begin|summary))
+
+#me
+Yes
+
+#bot
+(?=.*(?:gender|sex|male|female|identify))
+
+#me
+Male
+
+#bot
+(?=.*(?:age|old|born|year|how old))
+
+#me
+I was born in 1987
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have been having sharp pain in my right knee for about ten days, it started after a football game and has not improved
+
+#bot
+(?=.*(?:routine|urgent|emergency|urgency|level))
+AI_RESPONSE_ASSERTER the bot acknowledges the knee pain with empathy before asking about urgency|the urgency question is framed in plain patient-friendly language, not medical jargon|the response does not minimise or dismiss the patient's discomfort
+
+#me
+I don't think it's an emergency but it's stopping me from doing basic things like climbing stairs
+
+#bot
+(?=.*(?:noted|thank|clarif))(?=.*(?:describe|detail|symptom|pain|location|where|experience))
+AI_RESPONSE_ASSERTER the bot acknowledges the patient's clarification before asking the next question|the bot's next question gathers more clinical information to help the doctor|the response is patient-friendly and does not feel dismissive or abrupt
+
+#me
+The pain is on the outer side of my knee, sharp when I bend it or put weight on it, and there is some swelling around the joint
+
+#bot
+(?=.*(?:onset|when|start|begin|how long|duration|first|occur))
+AI_RESPONSE_ASSERTER the bot acknowledges the specific symptom details provided before asking about onset|the onset question follows naturally from the symptom description
+
+#me
+Ten days ago during a football match, I felt a pop and then immediate pain
+
+#bot
+(?=.*(?:severity|scale|rate|level|intense|10|how bad|how severe))
+AI_RESPONSE_ASSERTER the bot acknowledges the onset information before asking about pain severity|the severity question uses a scale that is clear and easy for the patient to answer
+
+#me
+About a 7 out of 10 when I move it, maybe a 3 when resting
+
+#bot
+(?=.*(?:chronic|condition|illness|ongoing|long.term|existing|health history))
+AI_RESPONSE_ASSERTER the bot acknowledges the pain severity information provided before asking about chronic conditions|the transition to medical history is smooth and does not feel abrupt
+
+#me
+No chronic conditions
+
+#bot
+(?=.*(?:surgery|surgical|procedure|operation|hospitaliz|past medical))
+
+#me
+I had my tonsils out when I was eight, nothing else
+
+#bot
+(?=.*(?:family|parent|relative|hereditary|history|genetic))
+
+#me
+My dad has type 2 diabetes, my mum is healthy as far as I know
+
+#bot
+(?=.*(?:medication|medicine|drug|treatment|supplement|vitamin|currently taking))
+
+#me
+I have been taking ibuprofen 400mg twice a day and using an ice pack on the knee
+
+#bot
+(?=.*(?:adherence|consistent|regular|prescribed|dose|taking|follow|schedule))
+AI_RESPONSE_ASSERTER the bot acknowledges that the patient is taking ibuprofen and using an ice pack as active self-management steps|the adherence question is framed respectfully, not judgementally
+
+#me
+Pretty consistently for the past ten days
+
+#bot
+(?=.*(?:allerg|reaction|sensitivity|allergy))
+
+#me
+No known allergies
+
+#bot
+(?=.*(?:effective|working|help|improv|reliev|managing|making a difference))
+
+#me
+The ibuprofen takes the edge off but the swelling is still there and it still hurts to bend
+
+#bot
+(?=.*(?:vital|metric|weight|height|blood pressure|measure|track|BMI|monitor))
+AI_RESPONSE_ASSERTER the bot empathetically acknowledges that the medication is only partially effective and the swelling persists|the response does not move on abruptly but validates that ongoing pain despite medication is frustrating
+
+#me
+I don't track vitals, I weigh about 78kg and I am 178cm tall
+
+#bot
+(?=.*(?:chang|progress|worsen|improv|over time|better|worse|evolv|trend))
+
+#me
+It has stayed about the same, maybe slightly better when I rest but worse when I try to walk
+
+#bot
+(?=.*(?:smok|tobacco|cigarette))
+
+#me
+I don't smoke
+
+#bot
+(?=.*(?:alcohol|drink|beverag))
+
+#me
+I have a few beers on weekends, nothing during the week
+
+#bot
+(?=.*(?:exercise|physical|activ|sport|workout|gym|fitness))
+
+#me
+I play football twice a week and go to the gym, but I haven't been able to since this happened
+
+#bot
+(?=.*(?:diet|eat|food|nutrition|meal|dietary))
+AI_RESPONSE_ASSERTER the bot acknowledges that the patient was previously very active and that the knee injury has prevented them from exercising|the response does not skip over the impact of the activity loss
+
+#me
+Normal diet, I eat at home most days, nothing specific
+
+#bot
+(?=.*(?:sleep|rest|hour|night|quality))
+
+#me
+About 7 hours, I sometimes wake up if I move my leg in the wrong direction
+
+#bot
+(?=.*(?:stress|pressure|tension|overwhelm|wellbeing|stress level))
+
+#me
+Low to moderate, work is fine, the knee is the main thing stressing me out right now
+
+#bot
+(?=.*(?:mental|emotion|feeling|mood|psycholog|mental health))
+
+#me
+I am frustrated honestly, I play football every week and this is really affecting my routine and my mental health
+
+#bot
+(?=.*(?:travel|exposure|contact|environment|region|recent|area|visited))
+AI_RESPONSE_ASSERTER the bot responds with genuine empathy to the patient's frustration about losing their football routine|the response validates that the impact on mental health and daily routine is a real concern, not just a physical issue|the bot does not dismiss or minimise the emotional dimension
+
+#me
+No recent travel, I have been local
+
+#bot
+(?=.*(?:caregiver|accompan|alone|someone|with you|guardian|support|bring))
+
+#me
+No, coming alone
+
+#bot
+(?=.*(?:consent|privacy|data|agree|policy|information|sharing|permiss))
+
+#me
+Yes I consent
+
+#bot
+(?=.*(?:provider|doctor|specialist|other|seeing|currently|care|refer|another))
+
+#me
+No other doctors
+
+#bot
+(?=.*(?:question|concern|ask|anything|else|doctor|add|wonder))
+
+#me
+I want to know if this is a ligament injury and whether I need an MRI or physiotherapy
+
+#bot
+(?=.*(?:completed|finished|download|summary|information|ready|all set|notes|thank))
+AI_RESPONSE_ASSERTER the bot tells the patient they can download their pre-visit summary|the response indicates what happens next or what the patient can do with the summary
+
+#me
+I also forgot to mention I have been wearing a knee brace since the injury
+
+#bot
+(?=.*(?:knee|brace|noted|added|thank|update|information))
+AI_RESPONSE_ASSERTER the bot confirms that the knee brace information has been noted and will be included in the summary|the response is warm and reassuring, confirming the patient's information is complete

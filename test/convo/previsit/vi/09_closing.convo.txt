@@ -1,0 +1,79 @@
+Closing VI - Summary Generated Guided Next Steps
+
+#include _opening
+
+#bot
+(?=.*(?:giới tính))(?=.*(?:nam|nữ|chia sẻ|cho biết|của bạn))
+
+#me
+Nam
+
+#bot
+(?=.*(?:tuổi))(?=.*(?:bao nhiêu|cho biết|chia sẻ|của bạn|hiện tại))
+
+#me
+45
+
+#bot
+(?=.*(?:lý do|khám|mục đích))(?=.*(?:hôm nay|bác sĩ|chia sẻ|cho biết|viếng thăm))
+
+#me
+Tôi bị phát ban trên cánh tay năm ngày nay
+
+#bot
+(?=.*(?:ghi nhận|mức độ|hiểu|thông thường))(?=.*(?:khẩn cấp|cấp cứu|nhẹ|trung bình|nghiêm trọng))
+
+#me
+Thông thường
+
+#bot
+(?=.*(?:ghi nhận|cảm ơn))(?=.*(?:triệu chứng|mô tả|phát ban|chi tiết|trải nghiệm))
+
+#me
+Phát ban đỏ và hơi nổi, không ngứa
+
+#bot
+(?=.*(?:cảm ơn|phát ban|ghi nhận|nhẹ))(?=.*(?:khi nào|bắt đầu|khởi phát|thời gian|bao lâu|mãn tính|bệnh lý|mức độ|nghiêm trọng))
+
+#me
+Năm ngày trước
+
+#bot
+(?=.*(?:cảm ơn|thời gian|ghi nhận|hiểu))(?=.*(?:mức độ|nghiêm trọng|thang điểm|cường độ|mãn tính|bệnh lý|tiểu đường|huyết áp))
+
+#me
+3 trên 10
+
+#bot
+(?=.*(?:cảm ơn|mức độ|ghi nhận))(?=.*(?:bệnh mãn tính|tiền sử|sức khỏe|tình trạng))
+
+#me
+Không có bệnh mãn tính, không có tiền sử bệnh nặng
+
+#bot
+(?=.*(?:cảm ơn|mãn tính|ghi nhận))(?=.*(?:phẫu thuật|can thiệp|tiền sử|gia đình|background))
+
+#me
+Không có phẫu thuật, không có can thiệp lớn, không có tiền sử gia đình quan trọng
+
+#bot
+(?=.*(?:cảm ơn|phẫu thuật|ghi nhận))(?=.*(?:thuốc|điều trị|dị ứng|tiền sử))
+
+#me
+Tôi không uống thuốc, không có thực phẩm bổ sung, không có vitamin, không dị ứng với bất cứ thứ gì
+
+#bot
+(?=.*(?:cảm ơn|thuốc|dị ứng|ghi nhận))(?=.*(?:lối sống|thói quen|hút thuốc|nghỉ ngơi|tuân thủ|điều trị|theo chỉ định))
+
+#me
+Nghỉ ngơi giúp ích một chút với vết phát ban
+
+#bot
+(?=.*(?:nghỉ ngơi|hiệu quả|ghi nhận|hiểu))(?=.*(?:lối sống|thói quen|hút thuốc|tập thể dục|ăn|ngủ|stress|tuân thủ|điều trị|thuốc))
+
+#me
+Tôi không hút thuốc, không uống rượu, tập thể dục hai lần mỗi tuần, ăn bình thường, ngủ 7 tiếng, ít căng thẳng
+
+#bot
+(?=.*(?:hoàn tất|tải xuống|tóm tắt))(?=.*(?:bác sĩ|khám|xem lại|sẵn sàng))
+

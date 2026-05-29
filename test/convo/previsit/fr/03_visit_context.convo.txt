@@ -1,0 +1,31 @@
+Visit Context FR - Reason For Visit
+
+#include _opening
+
+#bot
+(?=.*(?:genre|sexe))(?=.*(?:partager|âge|votre|pourriez|pouvez))
+
+#me
+Homme
+
+#bot
+(?=.*(?:âge|ans))(?=.*(?:quel|votre|avez-vous|pouvez|préciser))
+
+#me
+28
+
+#bot
+(?=.*(?:motif|raison|amène|pourquoi))(?=.*(?:visite|aujourd'hui|médecin|consultation))
+
+#me
+J'ai mal dans le bas du dos depuis trois jours
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|urgence|urgente))
+
+#me
+Routine
+
+#bot
+(?=.*(?:merci|noté|clarifi))(?=.*(?:consultation|résumé|préparer|poursuivre))
+

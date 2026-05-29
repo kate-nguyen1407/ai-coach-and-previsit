@@ -1,0 +1,50 @@
+Natural Transition - Symptom Acknowledgment Into Medical History
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Male
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+50
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have been experiencing chest tightness for a week
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|emergency))
+
+#me
+routine
+
+#bot
+(?=.*(?:describe|tell me|feeling|experiencing|what))(?=.*(?:when|started|how long|begin|ago))
+
+#me
+The tightness comes and goes, started about a week ago, I would say a 4 out of 10, no radiating pain or shortness of breath
+
+#bot
+(?=.*(?:thank|noted|understand|appreciate|clearer|gives|helpful))(?=.*(?:history|medical|health|background|conditions|context|past))
+AI_RESPONSE_ASSERTER the response explicitly acknowledges or reflects back the symptom information just shared before introducing the next topic|the transition to medical history feels natural and conversational — not an abrupt topic change or a menu-style label like "Next: Medical History"|the response does not ask multiple questions at once in the transition turn
+
+#me
+No chronic conditions
+
+#bot
+(?=.*(?:chronic|condition|illness|health|past))(?=.*(?:surger|procedure|operation|family|hereditary|ancestor|relative))
+
+#me
+No surgeries, no relevant family history
+
+#bot
+(?=.*(?:thank|noted|understand|appreciate|clearer))(?=.*(?:question|doctor|concern|anything|complete|all set|ready|prepared))
+

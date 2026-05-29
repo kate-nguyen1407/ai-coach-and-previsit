@@ -1,0 +1,19 @@
+Identity Collection - Name Age Gender
+
+#include _opening
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+I am 32 years old
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Female
+
+#bot
+(?=.*(?:thank))(?=.*(?:help|doctor|prepare|visit|information|assist))
+

@@ -1,0 +1,49 @@
+Symptoms VI - Detail Severity Onset
+
+#include _opening
+
+#bot
+(?=.*(?:giới tính))(?=.*(?:nam|nữ|chia sẻ|cho biết|của bạn))
+
+#me
+Nữ
+
+#bot
+(?=.*(?:tuổi))(?=.*(?:bao nhiêu|cho biết|chia sẻ|của bạn|hiện tại))
+
+#me
+35
+
+#bot
+(?=.*(?:lý do|khám|mục đích))(?=.*(?:hôm nay|bác sĩ|chia sẻ|cho biết|viếng thăm))
+
+#me
+Tôi bị chuột rút dạ dày mỗi ngày trong hai tuần
+
+#bot
+(?=.*(?:ghi nhận|mức độ|hiểu|thông thường))(?=.*(?:khẩn cấp|cấp cứu|nhẹ|trung bình|nghiêm trọng))
+
+#me
+Thông thường
+
+#bot
+(?=.*(?:ghi nhận|cảm ơn))(?=.*(?:triệu chứng|mô tả|chi tiết|cơn đau|trải nghiệm|mức độ|nhẹ|trung bình|nghiêm trọng|đau))
+
+#me
+Cơn đau nhói chủ yếu ở bên trái và đôi khi tôi cảm thấy buồn nôn
+
+#bot
+(?=.*(?:cảm ơn|ghi nhận|hiểu))(?=.*(?:mức độ|cường độ|thang điểm|dữ dội|nghiêm trọng))
+
+#me
+Khoảng 6 trên 10
+
+#bot
+(?=.*(?:cảm ơn|ghi nhận|chia sẻ))(?=.*(?:khi nào|bắt đầu|khởi phát|xuất hiện|bao lâu|câu hỏi|bác sĩ))
+
+#me
+Nó bắt đầu từ hai tuần trước
+
+#bot
+(?=.*(?:hoàn tất|tải xuống|cảm ơn|ghi nhận|chia sẻ))(?=.*(?:câu hỏi|bác sĩ|hoàn tất|tải xuống|tóm tắt))
+

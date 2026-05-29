@@ -1,0 +1,13 @@
+Symptom Logging
+
+#me
+I want to log my symptoms
+
+#bot
+goal|health|great|focus|symptom|support|ready|started|help
+
+#me
+I have a mild headache since this morning
+
+#bot
+headache|symptom|recorded|logged|noted|pain|discomfort|track|update

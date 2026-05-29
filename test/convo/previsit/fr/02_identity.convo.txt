@@ -1,0 +1,31 @@
+Identity Collection FR - Name Age Gender
+
+#include _opening
+
+#bot
+(?=.*(?:genre|sexe))(?=.*(?:partager|âge|votre|pourriez|pouvez))
+
+#me
+Femme
+
+#bot
+(?=.*(?:âge|ans))(?=.*(?:quel|votre|avez-vous|pouvez|préciser))
+
+#me
+32
+
+#bot
+(?=.*(?:motif|raison|amène|pourquoi))(?=.*(?:visite|aujourd'hui|médecin|consultation))
+
+#me
+Bilan de santé de routine
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|urgence|urgente))
+
+#me
+Routine
+
+#bot
+(?=.*(?:merci|noté|clarifi))(?=.*(?:consultation|résumé|préparer|poursuivre))
+

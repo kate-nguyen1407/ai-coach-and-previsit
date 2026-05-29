@@ -1,0 +1,13 @@
+Coaching Behavior Support - Streak Recognition and Progression
+
+#me
+I want to build a consistent exercise habit
+
+#bot
+goal|health|great|focus|exercise|habit|support|ready|started|help
+
+#me
+I have been exercising every day for the past two weeks, 30 minutes each session
+
+#bot
+AI_RESPONSE_ASSERTER the response explicitly recognises the two-week consistent streak as a meaningful achievement — not just a generic "great job" or a data acknowledgment|the response connects the pattern of consistent exercise to a health benefit, outcome, or milestone relevant to building a lasting habit|the response suggests a progression or next step that builds on the established pattern, rather than simply confirming the data was saved|the tone is celebratory and coaching-oriented — it reinforces the behavior and motivates continuation

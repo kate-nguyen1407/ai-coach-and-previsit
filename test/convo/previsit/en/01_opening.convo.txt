@@ -1,0 +1,4 @@
+Opening Message - Clinic Name and Purpose
+
+#bot
+(?=.*(?:prepare|ready|help))(?=.*(?:visit|today|appointment))

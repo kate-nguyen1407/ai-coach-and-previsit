@@ -1,0 +1,13 @@
+_opening
+
+#bot
+(?=.*(?:name))(?=.*(?:share|give|tell|provide|could|please))
+
+#me
+Test User
+
+#bot
+(?=.*(?:thank|great|nice))(?=.*(?:summary|record|information|before|begin))
+
+#me
+Yes

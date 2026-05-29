@@ -1,0 +1,49 @@
+Symptoms - Detail Severity Onset
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Female
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+35
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have stomach cramps every day for two weeks
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|emergency))
+
+#me
+routine
+
+#bot
+(?=.*(?:noted|thank|clarif))(?=.*(?:symptom|describe|detail|pain|discomfort|experience))
+
+#me
+The pain is sharp mostly on the left side and I feel nauseous sometimes
+
+#bot
+(?=.*(?:thank|noted|understand|experiencing))(?=.*(?:severity|intensity|scale|rate|level|when|started|began|onset|long))
+
+#me
+Maybe a 6 out of 10
+
+#bot
+(?=.*(?:thank|appreciate))(?=.*(?:when|onset|start|begin|how long|duration|ago))
+
+#me
+It started two weeks ago
+
+#bot
+(?=.*(?:thank|noted))(?=.*(?:question|doctor|concern|visit|discuss))
+

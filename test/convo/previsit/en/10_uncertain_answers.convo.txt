@@ -1,0 +1,49 @@
+Uncertain Answers - Not Sure Maybe I Think Prefer Not To Say
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+I prefer not to say
+
+#bot
+(?=.*(?:note|understand|respect|accept|problem))(?=.*(?:forward|bring|reason|seeking|today|proceed|continue))
+
+#me
+I am not sure what is wrong, I just feel off
+
+#bot
+(?=.*(?:note|understand|concern))(?=.*(?:routine|urgent|emergency|urgency|type))
+
+#me
+Routine, I think
+
+#bot
+(?=.*(?:thank|clarif|noted))(?=.*(?:symptom|describe|experiencing|pain|detail))
+
+#me
+I don't know how to describe the pain
+
+#bot
+(?=.*(?:note|understand|unclear|problem))(?=.*(?:severity|scale|rate|intensity|level|when|started|timeline|began|first))
+
+#me
+Maybe a 5 out of 10
+
+#bot
+(?=.*(?:thank|noted))(?=.*(?:timeline|onset|when|started|began|how long|duration|ago))
+
+#me
+A few weeks maybe, not sure
+
+#bot
+(?=.*(?:note|understand|unclear))(?=.*(?:question|doctor|concern|discuss|suggest))
+
+#me
+I am not entirely sure what to ask
+
+#bot
+(?=.*(?:doctor|suggest|note))(?=.*(?:question|ask|concern|discuss|visit))
+

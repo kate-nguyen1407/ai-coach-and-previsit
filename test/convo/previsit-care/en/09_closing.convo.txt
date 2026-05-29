@@ -1,0 +1,144 @@
+Closing - Summary Generated Guided Next Steps
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Male
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+45
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have a rash on my arm that has been there for five days
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|emergency))
+
+#me
+routine
+
+#bot
+(?=.*(?:noted|thank|clarif))(?=.*(?:symptom|describe|detail|rash|pain|experience))
+
+#me
+The rash is red and slightly raised, no itching
+
+#bot
+(?=.*(?:thank|noted|rash))(?=.*(?:onset|when|start|begin|how long|duration|time))
+
+#me
+Five days ago
+
+#bot
+(?=.*(?:thank|noted|timeline))(?=.*(?:severity|scale|intense|level|rate|impact))
+
+#me
+3 out of 10
+
+#bot
+(?=.*(?:thank|noted|severity))(?=.*(?:chronic|condition|illness|health|history))
+
+#me
+No chronic conditions, no history of serious illness
+
+#bot
+(?=.*(?:thank|noted|appreciate|chronic))(?=.*(?:surgery|surgical|procedure|operation|family|background))
+
+#me
+No surgeries, no major procedures, no relevant family history
+
+#bot
+(?=.*(?:thank|noted|appreciate|surgical))(?=.*(?:medication|medicine|drug|treatment|allerg))
+
+#me
+I don't take any medications, no supplements, no vitamins, no allergies to anything
+
+#bot
+(?=.*(?:thank|noted|medication|allerg))(?=.*(?:consistent|past|prescribed|history|treatment|previously))
+
+#me
+I haven't taken any prescribed medications in the past
+
+#bot
+(?=.*(?:change|condition|since|encounter|progress|clinical|notice))(?=.*(?:last|previous|track|visit|adjust))
+
+#me
+My condition has been the same, no notable changes
+
+#bot
+(?=.*(?:vital|temperature|heart rate|blood pressure|measure|record|monitor|track))
+
+#me
+I don't track vitals at home
+
+#bot
+(?=.*(?:effective|effectiveness|treatment|current|rating|working|adjust))(?=.*(?:plan|care|management|understand|help))
+
+#me
+I don't have a formal treatment, rest has been helpful for the rash
+
+#bot
+(?=.*(?:understand|appreciate|thank|noted))(?=.*(?:smok|tobacco|cigarette))
+
+#me
+I don't smoke
+
+#bot
+(?=.*(?:smok|tobacco|thank|noted))(?=.*(?:alcohol|drink|beverag))
+
+#me
+I don't drink
+
+#bot
+(?=.*(?:alcohol|drink|thank|noted))(?=.*(?:exercise|walk|active|physical|sport|gym|fitness))
+
+#me
+I exercise twice a week
+
+#bot
+(?=.*(?:exercise|walk|active|thank|noted))(?=.*(?:diet|nutrition|eat|food|meal))
+
+#me
+Normal diet
+
+#bot
+(?=.*(?:diet|eat|nutrition|thank|noted))(?=.*(?:sleep|rest|hour|night|quality))
+
+#me
+Seven hours
+
+#bot
+(?=.*(?:sleep|rest|hour|thank|noted))(?=.*(?:stress|pressure|tension|mental|wellbeing))
+
+#me
+Low stress
+
+#bot
+(?=.*(?:stress|low|thank|noted))(?=.*(?:mental|emotion|feeling|mood|well.being))
+
+#me
+I feel fine mentally
+
+#bot
+(?=.*(?:mental|emotional|thank|noted))(?=.*(?:travel|trip|recent|exposure|region|area))
+
+#me
+No recent travel
+
+#bot
+(?=.*(?:travel|thank|noted))(?=.*(?:caregiver|accompan|alone|question|concern|anything|consent))
+
+#me
+No caregiver, I consent, no questions
+
+#bot
+(?=.*(?:completed|finished|download|summary|thank|noted))(?=.*(?:information|download|summary|ready|doctor|visit))

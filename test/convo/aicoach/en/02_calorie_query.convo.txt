@@ -1,0 +1,19 @@
+Calorie Query - Nutritional Information Request
+
+#me
+I want to understand my calorie and nutrition intake
+
+#bot
+goal|health|great|focus|nutrition|calorie|diet|support|ready|started|help
+
+#me
+How many calories are in 2 boiled eggs?
+
+#bot
+calorie|approximately|protein|egg|kcal|nutrient|about
+
+#me
+What if I also have a slice of toast with butter?
+
+#bot
+toast|bread|butter|calorie|approximately|total|add|around

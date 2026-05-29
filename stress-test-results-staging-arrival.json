@@ -1,0 +1,177 @@
+{
+  "mode": "arrival",
+  "scenario": "09_closing",
+  "env": "staging",
+  "host": "care.stg.elfie.co",
+  "runAt": "2026-05-15T10:54:18.814Z",
+  "config": {
+    "ratePerSec": 3,
+    "durationSec": 20,
+    "thinkSec": 5
+  },
+  "timeline": [
+    {
+      "sec": 1,
+      "launched": 3,
+      "active": 3,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 2,
+      "launched": 6,
+      "active": 6,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 3,
+      "launched": 9,
+      "active": 9,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 4,
+      "launched": 12,
+      "active": 12,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 5,
+      "launched": 15,
+      "active": 15,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 6,
+      "launched": 18,
+      "active": 18,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 7,
+      "launched": 21,
+      "active": 21,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 8,
+      "launched": 24,
+      "active": 24,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 9,
+      "launched": 27,
+      "active": 27,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 10,
+      "launched": 30,
+      "active": 30,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 11,
+      "launched": 33,
+      "active": 33,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 12,
+      "launched": 36,
+      "active": 36,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 13,
+      "launched": 39,
+      "active": 39,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 14,
+      "launched": 42,
+      "active": 42,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 15,
+      "launched": 45,
+      "active": 45,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 16,
+      "launched": 48,
+      "active": 48,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 17,
+      "launched": 51,
+      "active": 51,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 18,
+      "launched": 54,
+      "active": 54,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 19,
+      "launched": 57,
+      "active": 57,
+      "completed": 0,
+      "errors": 0
+    },
+    {
+      "sec": 20,
+      "launched": 60,
+      "active": 60,
+      "completed": 0,
+      "errors": 0
+    }
+  ],
+  "summary": {
+    "totalSessions": 60,
+    "successCount": 60,
+    "failCount": 0,
+    "successRate": 100,
+    "turn": {
+      "avg": 50,
+      "p50": 37,
+      "p95": 112,
+      "p99": 295,
+      "max": 654,
+      "min": 30
+    },
+    "session": {
+      "avg": 111232,
+      "p50": 111197,
+      "p95": 111650,
+      "p99": 111913,
+      "max": 111913,
+      "min": 110960
+    },
+    "errors": []
+  }
+}

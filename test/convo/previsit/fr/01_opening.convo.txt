@@ -1,0 +1,4 @@
+Opening Message FR - Clinic Name and Purpose
+
+#bot
+(?=.*(?:Bonjour|accompagner|préparer))(?=.*(?:visite|aujourd'hui|prénom|nom))

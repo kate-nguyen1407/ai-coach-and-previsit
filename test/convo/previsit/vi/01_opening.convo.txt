@@ -1,0 +1,4 @@
+Opening Message VI - Clinic Name and Purpose
+
+#bot
+(?=.*(?:Chào|hỗ trợ|chuẩn bị))(?=.*(?:tên|khám|hôm nay|cuộc hẹn))

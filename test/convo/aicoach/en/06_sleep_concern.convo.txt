@@ -1,0 +1,19 @@
+Sleep Concern - Insufficient Rest
+
+#me
+I want to improve my sleep quality
+
+#bot
+goal|health|great|focus|sleep|rest|support|ready|started|help
+
+#me
+I only slept about 4 hours last night
+
+#bot
+sleep|rest|hour|important|recommend|quality|tired|enough|well-being
+
+#me
+I have been having trouble falling asleep this whole week
+
+#bot
+sleep|issue|routine|relax|help|recommend|concern|difficult|insomnia|week

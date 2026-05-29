@@ -1,0 +1,25 @@
+Coaching Tone - Elevated Blood Pressure Logging With Insight
+
+#me
+I want to track my blood pressure
+
+#bot
+goal|health|great|focus|blood pressure|support|ready|started|help
+
+#me
+My blood pressure reading is 138 over 88
+
+#bot
+blood pressure|recorded|logged|noted|138|88|time|when|date
+
+#me
+I took it at 9:00 AM this morning
+
+#bot
+blood pressure|recorded|logged|noted|thank|pulse|heart|time|when|date
+
+#me
+My pulse was 78
+
+#bot
+AI_RESPONSE_ASSERTER the response acknowledges the specific values logged (138/88) and places them in a health context — for example noting they are slightly elevated — rather than just saying the data was saved|the response is warm and encouraging, not robotic or transactional|the response suggests a next step or offers meaningful guidance related to the reading, such as continuing to track, checking with a doctor, or lifestyle tips

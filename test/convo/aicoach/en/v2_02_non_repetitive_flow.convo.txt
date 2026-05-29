@@ -1,0 +1,25 @@
+Non-Repetitive Flow - Multi-Item Session Without Templated Responses
+
+#me
+I want to track my exercise and nutrition
+
+#bot
+goal|health|great|focus|exercise|nutrition|support|ready|started|help
+
+#me
+I went for a 30 minute run this morning
+
+#bot
+run|exercise|cardio|activity|great|logged|noted|time|when|date
+
+#me
+Around 7:00 AM
+
+#bot
+run|exercise|logged|noted|thank|recorded
+
+#me
+I also had a healthy breakfast — oats and fruit
+
+#bot
+AI_RESPONSE_ASSERTER the response acknowledges the breakfast without repeating the same opening phrase or sentence structure used to acknowledge the run|the response feels like a natural continuation of a conversation — not a templated acknowledgment that could apply to any log entry|the response connects or references both pieces of information logged in this session, showing the bot is aware of the full context rather than treating each message in isolation

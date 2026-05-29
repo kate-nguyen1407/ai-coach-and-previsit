@@ -1,0 +1,133 @@
+Post Summary VI - New Information After Summary
+
+#include _opening
+
+#bot
+(?=.*(?:giới tính))(?=.*(?:nam|nữ|chia sẻ|cho biết|của bạn))
+
+#me
+Nữ
+
+#bot
+(?=.*(?:tuổi))(?=.*(?:bao nhiêu|cho biết|chia sẻ|của bạn|hiện tại))
+
+#me
+38
+
+#bot
+(?=.*(?:câu hỏi|bác sĩ|lý do))(?=.*(?:bác sĩ|câu hỏi|hôm nay|chia sẻ|khám))
+
+#me
+Tôi bị đau gối hai tuần nay
+
+#bot
+(?=.*(?:hoàn tất|tải xuống|tóm tắt))(?=.*(?:thông tin|hồ sơ|bác sĩ|dossier))
+
+#me
+Không có bệnh mãn tính
+
+#bot
+(?=.*(?:cảm ơn|ghi nhận))(?=.*(?:mãn tính|bệnh|phẫu thuật|tích cực|tiếp theo))
+
+#me
+Không có phẫu thuật
+
+#bot
+(?=.*(?:cảm ơn|ghi nhận))(?=.*(?:phẫu thuật|gia đình|can thiệp|tiền sử))
+
+#me
+Không có tiền sử gia đình
+
+#bot
+(?=.*(?:cảm ơn|ghi nhận))(?=.*(?:gia đình|thuốc|tiền sử|tiếp theo))
+
+#me
+Tôi không uống thuốc
+
+#bot
+(?=.*(?:cảm ơn|ghi nhận))(?=.*(?:thuốc|dị ứng|điều trị|tiếp theo))
+
+#me
+Không có dị ứng
+
+#bot
+(?=.*(?:cảm ơn|ghi nhận))(?=.*(?:dị ứng|hút thuốc|lối sống|thuốc lá))
+
+#me
+Tôi không hút thuốc
+
+#bot
+(?=.*(?:cảm ơn|ghi nhận|thuốc|hút))(?=.*(?:rượu|bia|uống|lối sống))
+
+#me
+Tôi không uống rượu
+
+#bot
+(?=.*(?:cảm ơn|rượu|ghi nhận))(?=.*(?:đi bộ|thể dục|hoạt động|lối sống))
+
+#me
+Tôi đi bộ hàng ngày
+
+#bot
+(?=.*(?:cảm ơn|đi bộ|ghi nhận))(?=.*(?:chế độ ăn|dinh dưỡng|ăn|thực phẩm))
+
+#me
+Chế độ ăn bình thường
+
+#bot
+(?=.*(?:cảm ơn|chế độ ăn|ghi nhận))(?=.*(?:ngủ|giấc ngủ|nghỉ ngơi|tiếng))
+
+#me
+Bảy tiếng ngủ
+
+#bot
+(?=.*(?:cảm ơn|ngủ|ghi nhận))(?=.*(?:căng thẳng|stress|tinh thần|phục hồi))
+
+#me
+Ít căng thẳng
+
+#bot
+(?=.*(?:ghi nhận|căng thẳng|tinh thần))(?=.*(?:tinh thần|cảm xúc|thoải mái|du lịch))
+
+#me
+Tôi cảm thấy tốt về mặt tinh thần
+
+#bot
+(?=.*(?:vui|tinh thần|thoải mái|ghi nhận))(?=.*(?:tinh thần|du lịch|gần đây|trip))
+
+#me
+Không đi du lịch
+
+#bot
+(?=.*(?:ghi nhận|du lịch))(?=.*(?:du lịch|người chăm sóc|chăm sóc|đồng hành))
+
+#me
+Không có người chăm sóc
+
+#bot
+(?=.*(?:hiểu|chăm sóc|ghi nhận))(?=.*(?:chăm sóc|đồng ý|thông tin|đau|riêng tư))
+
+#me
+Vâng tôi đồng ý
+
+#bot
+(?=.*(?:ghi nhận|thông tin|đau|đồng ý))(?=.*(?:bác sĩ|khác|tiếp theo|cập nhật))
+
+#me
+Không có bác sĩ khác
+
+#bot
+(?=.*(?:ghi nhận|bác sĩ))(?=.*(?:bác sĩ|câu hỏi|thêm|cập nhật|lo lắng))
+
+#me
+Tôi chỉ muốn biết điều gì đang gây ra cơn đau
+
+#bot
+(?=.*(?:cập nhật|hồ sơ|hoàn tất))(?=.*(?:tải xuống|tóm tắt|hồ sơ|ghi nhận))
+
+#me
+Ồ tôi quên đề cập tôi đang dùng đai gối
+
+#bot
+(?=.*(?:đai gối|đầu gối|ghi nhận))(?=.*(?:đai gối|hỗ trợ|khớp|đầu gối))
+

@@ -1,0 +1,64 @@
+{
+  "language": "vi",
+  "environment": "staging",
+  "host": "api.stg.elfie.co",
+  "timestamp": "2026-05-25T04:30:12.209Z",
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "duration_ms": 21761
+  },
+  "scenarios": [
+    {
+      "name": "01_opening",
+      "state": "passed",
+      "duration_ms": 653
+    },
+    {
+      "name": "02_identity",
+      "state": "passed",
+      "duration_ms": 5350
+    },
+    {
+      "name": "03_visit_context",
+      "state": "passed",
+      "duration_ms": 1237
+    },
+    {
+      "name": "04_symptoms",
+      "state": "passed",
+      "duration_ms": 1766
+    },
+    {
+      "name": "05_medical_history",
+      "state": "passed",
+      "duration_ms": 2008
+    },
+    {
+      "name": "06_medication",
+      "state": "passed",
+      "duration_ms": 2284
+    },
+    {
+      "name": "07_lifestyle",
+      "state": "passed",
+      "duration_ms": 2422
+    },
+    {
+      "name": "08_mental_emotional",
+      "state": "passed",
+      "duration_ms": 1333
+    },
+    {
+      "name": "09_closing",
+      "state": "passed",
+      "duration_ms": 2725
+    },
+    {
+      "name": "10_uncertain_answers",
+      "state": "passed",
+      "duration_ms": 1983
+    }
+  ]
+}

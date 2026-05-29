@@ -1,0 +1,49 @@
+Symptoms FR - Detail Severity Onset
+
+#include _opening
+
+#bot
+(?=.*(?:genre|sexe))(?=.*(?:partager|âge|votre|pourriez|pouvez))
+
+#me
+Femme
+
+#bot
+(?=.*(?:âge|ans))(?=.*(?:quel|votre|avez-vous|pouvez|préciser))
+
+#me
+35
+
+#bot
+(?=.*(?:motif|raison|amène|pourquoi))(?=.*(?:visite|aujourd'hui|médecin|consultation))
+
+#me
+J'ai des crampes à l'estomac tous les jours depuis deux semaines
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|urgence|urgente))
+
+#me
+Routine
+
+#bot
+(?=.*(?:merci|précis|noté|clarifi))(?=.*(?:symptôme|décrire|détail|douleur|ressentez))
+
+#me
+La douleur est aiguë surtout sur le côté gauche, je me sens parfois nauséeuse
+
+#bot
+(?=.*(?:merci|comprends))(?=.*(?:intensité|sévérité|échelle|douleur|niveau))
+
+#me
+Peut-être un 6 sur 10
+
+#bot
+(?=.*(?:merci|comprends))(?=.*(?:depuis quand|commencé|apparu|début|durée))
+
+#me
+Cela a commencé il y a deux semaines
+
+#bot
+(?=.*(?:merci|comprends))(?=.*(?:question|médecin|préoccupation|docteur|visite))
+

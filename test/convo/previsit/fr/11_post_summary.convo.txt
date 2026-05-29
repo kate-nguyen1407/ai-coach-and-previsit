@@ -1,0 +1,133 @@
+Post Summary FR - New Information After Summary
+
+#include _opening
+
+#bot
+(?=.*(?:genre|sexe|profil))(?=.*(?:partager|âge|votre|pourriez|pouvez))
+
+#me
+Femme
+
+#bot
+(?=.*(?:âge|ans))(?=.*(?:quel|votre|avez-vous|pouvez|préciser))
+
+#me
+38
+
+#bot
+(?=.*(?:question|préoccupation|raison|motif))(?=.*(?:visite|médecin|aujourd'hui|consultation))
+
+#me
+J'ai eu des douleurs au genou pendant deux semaines
+
+#bot
+(?=.*(?:rempli|téléchargez|résumé))(?=.*(?:toutes|information|complété|dossier))
+
+#me
+Pas de maladies chroniques
+
+#bot
+(?=.*(?:merci|comprends|bien))(?=.*(?:chronique|maladie|chirurgie|partagé|noté))
+
+#me
+Pas de chirurgies
+
+#bot
+(?=.*(?:merci|comprends|bien))(?=.*(?:chirurgie|intervention|famille|partagé|noté))
+
+#me
+Pas d'antécédents familiaux
+
+#bot
+(?=.*(?:merci|comprends|bien))(?=.*(?:famille|familiaux|médicament|partagé|noté))
+
+#me
+Je ne prends pas de médicaments
+
+#bot
+(?=.*(?:merci|comprends))(?=.*(?:médicament|aucun|allergi|partagé|noté))
+
+#me
+Pas d'allergies
+
+#bot
+(?=.*(?:merci|remercie|rassurant))(?=.*(?:allergi|fume|tabac|santé|noté))
+
+#me
+Je ne fume pas
+
+#bot
+(?=.*(?:fume|tabac|santé|merci))(?=.*(?:alcool|boisson|fume|noté))
+
+#me
+Je ne bois pas
+
+#bot
+(?=.*(?:alcool|hydratation|merci))(?=.*(?:alcool|march|exerc|activit|noté))
+
+#me
+Je marche tous les jours
+
+#bot
+(?=.*(?:march|quotidien|merci))(?=.*(?:march|aliment|régime|repas|noté))
+
+#me
+Alimentation normale
+
+#bot
+(?=.*(?:alimentation|équilibr|merci))(?=.*(?:aliment|sommeil|repos|nuit|noté))
+
+#me
+Sept heures de sommeil
+
+#bot
+(?=.*(?:sommeil|repos|merci))(?=.*(?:sommeil|stress|mental|bien-être|noté))
+
+#me
+Faible stress
+
+#bot
+(?=.*(?:stress|léger|bien-être|merci))(?=.*(?:stress|mental|émotionnel|voyage|noté))
+
+#me
+Je me sens bien mentalement
+
+#bot
+(?=.*(?:mental|émotionnel|ravi|merci))(?=.*(?:mental|voyage|récemment|trip|noté))
+
+#me
+Pas de voyage
+
+#bot
+(?=.*(?:voyage|récemment|merci))(?=.*(?:voyage|aidant|accompagn|care|noté))
+
+#me
+Pas d'aidant
+
+#bot
+(?=.*(?:aidant|autonome|merci))(?=.*(?:aidant|consentement|accord|privac|noté))
+
+#me
+Oui je consens
+
+#bot
+(?=.*(?:consentement|préparé|merci))(?=.*(?:consent|médecin|autre|suivi|noté))
+
+#me
+Pas d'autres médecins
+
+#bot
+(?=.*(?:médecin|signaler|suivi|merci))(?=.*(?:médecin|question|concern|mise à jour|noté))
+
+#me
+Je veux juste savoir ce qui cause la douleur
+
+#bot
+(?=.*(?:mis à jour|dossier|résumé))(?=.*(?:téléchargez|dossier|rempli|inform|noté))
+
+#me
+Oh j'ai oublié de mentionner que j'utilise une genouillère
+
+#bot
+(?=.*(?:genouillère|genou|articulaire))(?=.*(?:genouillère|stabiliser|genou|joint|noté))
+

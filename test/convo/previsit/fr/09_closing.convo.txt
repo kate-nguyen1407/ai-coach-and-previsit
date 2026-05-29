@@ -1,0 +1,79 @@
+Closing FR - Summary Generated Guided Next Steps
+
+#include _opening
+
+#bot
+(?=.*(?:genre|sexe))(?=.*(?:partager|âge|votre|pourriez|pouvez))
+
+#me
+Homme
+
+#bot
+(?=.*(?:âge|ans))(?=.*(?:quel|votre|avez-vous|pouvez|préciser))
+
+#me
+45
+
+#bot
+(?=.*(?:motif|raison|amène|pourquoi))(?=.*(?:visite|aujourd'hui|médecin|consultation))
+
+#me
+J'ai une éruption sur le bras depuis cinq jours
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|urgence|urgente))
+
+#me
+Routine
+
+#bot
+(?=.*(?:merci|précis|noté|clarifi))(?=.*(?:symptôme|décrire|détail|éruption|rash))
+
+#me
+L'éruption est rouge et légèrement surélevée, sans démangeaisons
+
+#bot
+(?=.*(?:merci|noté|éruption))(?=.*(?:depuis quand|commencé|apparu|durée|début))
+
+#me
+Depuis cinq jours
+
+#bot
+(?=.*(?:merci|noté|durée))(?=.*(?:sévérité|échelle|intensité|niveau|impact))
+
+#me
+3 sur 10
+
+#bot
+(?=.*(?:merci|noté|sévérité))(?=.*(?:chronique|condition|antécédent|maladie|santé))
+
+#me
+Pas de maladies chroniques, pas d'antécédents graves
+
+#bot
+(?=.*(?:merci|apprécie|chronique))(?=.*(?:chirurgie|intervention|antécédent|famille|background))
+
+#me
+Pas de chirurgies, pas d'interventions, pas d'antécédents familiaux importants
+
+#bot
+(?=.*(?:merci|noté|chirurgie))(?=.*(?:médicament|traitement|allergi|background))
+
+#me
+Je ne prends pas de médicaments, pas de suppléments, pas de vitamines, pas d'allergies à rien
+
+#bot
+(?=.*(?:merci|noté|médicament|allergi))(?=.*(?:lifestyle|habitude|facteur|repos|soulagement|mode de vie|fume|vapot|tabac))
+
+#me
+Le repos aide un peu avec l'éruption
+
+#bot
+(?=.*(?:repos|soulagement|noté))(?=.*(?:lifestyle|habitude|fume|exerc|repas|sommeil|stress))
+
+#me
+Je ne fume pas, je bois rarement, je fais de l'exercice deux fois par semaine, je mange normalement, sept heures de sommeil, faible stress
+
+#bot
+(?=.*(?:complété|téléchargez|résumé|rempli))(?=.*(?:rempli|informations|médecin|visite|prêt|review|résumé))
+

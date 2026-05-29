@@ -1,0 +1,1053 @@
+{
+  "01_greeting": [
+    {
+      "runNum": 1,
+      "sessionId": 8801,
+      "passed": true,
+      "assertionFails": 0,
+      "turns": [
+        {
+          "turn": 1,
+          "userMsg": "Hello",
+          "botResp": "Hello! It's great to connect with you. I'm here to help you navigate your health questions and provide information to support your well-being.\n\nIs there a specific health topic or goal you're thinking about today? I'm happy to help you break down any questions you might have.",
+          "elapsed": 172,
+          "passed": true,
+          "assertion": "help|support|assist|track|health|today|how can",
+          "requestBody": {
+            "session_id": 8801,
+            "message": "Hello",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8801,
+            "messageId": 85619,
+            "createdAt": "2026-05-25T06:54:45.985382+00:00",
+            "sender": "AI",
+            "message": "Hello! It's great to connect with you. I'm here to help you navigate your health questions and provide information to support your well-being.\n\nIs there a specific health topic or goal you're thinking about today? I'm happy to help you break down any questions you might have.",
+            "suggestActions": []
+          },
+          "suggestActions": []
+        }
+      ],
+      "bugs": [],
+      "avgMs": 172
+    }
+  ],
+  "02_blood_sugar": [
+    {
+      "runNum": 1,
+      "sessionId": 8802,
+      "passed": true,
+      "assertionFails": 0,
+      "turns": [
+        {
+          "turn": 1,
+          "userMsg": "I want to track my blood sugar",
+          "botResp": "It is a great step to start tracking your blood sugar, as consistent monitoring is one of the most effective ways to understand your metabolic health and spot patterns over time.\n\nTo get started, we can set up the Blood Sugar program in your plan. This will allow you to log your readings, set helpful reminders, and view trends as you go.\n\nTo make sure the setup is tailored to you, could you let me know if you are currently managing a specific condition like diabetes or pre-diabetes, or if you are tracking for general wellness?\n\nOnce we have that, we can follow these simple steps:\n- Navigate to the \"My Plan\" section on your home screen and select \"Add/Edit.\"\n- Choose \"Blood glucose\" to activate the program.\n- Follow the prompts to input your details, such as whether you are taking any medications, so the app can provide the most relevant insights for your needs.",
+          "elapsed": 202,
+          "passed": true,
+          "assertion": "goal|health|great|focus|blood sugar|glucose|support|ready|started|help",
+          "requestBody": {
+            "session_id": 8802,
+            "message": "I want to track my blood sugar",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8802,
+            "messageId": 85621,
+            "createdAt": "2026-05-25T06:54:46.249463+00:00",
+            "sender": "AI",
+            "message": "It is a great step to start tracking your blood sugar, as consistent monitoring is one of the most effective ways to understand your metabolic health and spot patterns over time.\n\nTo get started, we can set up the Blood Sugar program in your plan. This will allow you to log your readings, set helpful reminders, and view trends as you go.\n\nTo make sure the setup is tailored to you, could you let me know if you are currently managing a specific condition like diabetes or pre-diabetes, or if you are tracking for general wellness?\n\nOnce we have that, we can follow these simple steps:\n- Navigate to the \"My Plan\" section on your home screen and select \"Add/Edit.\"\n- Choose \"Blood glucose\" to activate the program.\n- Follow the prompts to input your details, such as whether you are taking any medications, so the app can provide the most relevant insights for your needs.",
+            "suggestActions": []
+          },
+          "suggestActions": []
+        },
+        {
+          "turn": 2,
+          "userMsg": "My blood sugar is 120 mg/dL before breakfast",
+          "botResp": "Could you please let me know what time you took this reading?",
+          "elapsed": 253,
+          "passed": true,
+          "assertion": "blood sugar|glucose|recorded|logged|noted|120|track|update|time|when|date",
+          "requestBody": {
+            "session_id": 8802,
+            "message": "My blood sugar is 120 mg/dL before breakfast",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8802,
+            "messageId": 85623,
+            "createdAt": "2026-05-25T06:54:46.482962+00:00",
+            "sender": "AI",
+            "message": "Could you please let me know what time you took this reading?",
+            "suggestActions": [
+              {
+                "id": 5908,
+                "type": "bloodGlucose",
+                "status": "new",
+                "extractedData": {
+                  "value": 120,
+                  "unit": "mg/dL",
+                  "type": "before-breakfast"
+                },
+                "missingFields": [
+                  "dateTime"
+                ],
+                "confirmedAction": null,
+                "contextId": "457a197d-b13e-48a0-857a-d59ae447bc4c"
+              }
+            ]
+          },
+          "suggestActions": [
+            {
+              "id": 5908,
+              "type": "bloodGlucose",
+              "status": "new",
+              "extractedData": {
+                "value": 120,
+                "unit": "mg/dL",
+                "type": "before-breakfast"
+              },
+              "missingFields": [
+                "dateTime"
+              ],
+              "confirmedAction": null,
+              "contextId": "457a197d-b13e-48a0-857a-d59ae447bc4c"
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "userMsg": "I took it at 7:00 AM this morning",
+          "botResp": "Thank you for sharing that reading from 7:00 AM! It is great to see you keeping up with your morning routine. How are you feeling today?",
+          "elapsed": 248,
+          "passed": true,
+          "assertion": "blood sugar|glucose|recorded|logged|noted|thank|updated|7|time|when|date",
+          "requestBody": {
+            "session_id": 8802,
+            "message": "I took it at 7:00 AM this morning",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8802,
+            "messageId": 85625,
+            "createdAt": "2026-05-25T06:54:46.754720+00:00",
+            "sender": "AI",
+            "message": "Thank you for sharing that reading from 7:00 AM! It is great to see you keeping up with your morning routine. How are you feeling today?",
+            "suggestActions": [
+              {
+                "id": 5909,
+                "type": "bloodGlucose",
+                "status": "new",
+                "extractedData": {
+                  "type": "before-breakfast",
+                  "unit": "mg/dL",
+                  "value": 120,
+                  "dateTime": "2026-05-25T07:00:00.000Z"
+                },
+                "missingFields": null,
+                "confirmedAction": null,
+                "contextId": "457a197d-b13e-48a0-857a-d59ae447bc4c"
+              }
+            ]
+          },
+          "suggestActions": [
+            {
+              "id": 5909,
+              "type": "bloodGlucose",
+              "status": "new",
+              "extractedData": {
+                "type": "before-breakfast",
+                "unit": "mg/dL",
+                "value": 120,
+                "dateTime": "2026-05-25T07:00:00.000Z"
+              },
+              "missingFields": null,
+              "confirmedAction": null,
+              "contextId": "457a197d-b13e-48a0-857a-d59ae447bc4c"
+            }
+          ]
+        }
+      ],
+      "bugs": [],
+      "avgMs": 234
+    }
+  ],
+  "03_blood_pressure": [
+    {
+      "runNum": 1,
+      "sessionId": 8803,
+      "passed": true,
+      "assertionFails": 0,
+      "turns": [
+        {
+          "turn": 1,
+          "userMsg": "I want to manage my blood pressure",
+          "botResp": "It is a great step to focus on managing your blood pressure, as consistent tracking is one of the most effective ways to understand your cardiovascular health.\n\nTo get started, we can set up the Blood Pressure program in your plan. This will allow you to log your daily readings, view trends over time, and receive personalized guidance based on your numbers.\n\nIf you would like to begin, here is how we can get you set up:\n\n- Go to your \"Home Screen\" and tap the \"Add/Edit\" button under \"My Plan.\"\n- Select \"Blood pressure\" from the list to activate the program.\n- Once it is active, you can start by adding your first reading.\n\nDo you currently have a blood pressure monitor at home that you use to check your levels?",
+          "elapsed": 165,
+          "passed": true,
+          "assertion": "goal|health|great|focus|blood pressure|support|ready|started|help",
+          "requestBody": {
+            "session_id": 8803,
+            "message": "I want to manage my blood pressure",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8803,
+            "messageId": 85627,
+            "createdAt": "2026-05-25T06:54:46.986647+00:00",
+            "sender": "AI",
+            "message": "It is a great step to focus on managing your blood pressure, as consistent tracking is one of the most effective ways to understand your cardiovascular health.\n\nTo get started, we can set up the Blood Pressure program in your plan. This will allow you to log your daily readings, view trends over time, and receive personalized guidance based on your numbers.\n\nIf you would like to begin, here is how we can get you set up:\n\n- Go to your \"Home Screen\" and tap the \"Add/Edit\" button under \"My Plan.\"\n- Select \"Blood pressure\" from the list to activate the program.\n- Once it is active, you can start by adding your first reading.\n\nDo you currently have a blood pressure monitor at home that you use to check your levels?",
+            "suggestActions": []
+          },
+          "suggestActions": []
+        },
+        {
+          "turn": 2,
+          "userMsg": "My blood pressure is 120 over 80",
+          "botResp": "Could you also let me know what time you took this reading?",
+          "elapsed": 242,
+          "passed": true,
+          "assertion": "blood pressure|recorded|logged|noted|120|80|track|update|time|when|date",
+          "requestBody": {
+            "session_id": 8803,
+            "message": "My blood pressure is 120 over 80",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8803,
+            "messageId": 85629,
+            "createdAt": "2026-05-25T06:54:47.183276+00:00",
+            "sender": "AI",
+            "message": "Could you also let me know what time you took this reading?",
+            "suggestActions": [
+              {
+                "id": 5910,
+                "type": "bloodPressure",
+                "status": "new",
+                "extractedData": {
+                  "sys": 120,
+                  "dia": 80,
+                  "dateTime": "2026-05-25T08:00:00.000Z"
+                },
+                "missingFields": [
+                  "pulse"
+                ],
+                "confirmedAction": null,
+                "contextId": "dcd3c0db-0e63-41c0-86cf-e602e1d3d1c4"
+              }
+            ]
+          },
+          "suggestActions": [
+            {
+              "id": 5910,
+              "type": "bloodPressure",
+              "status": "new",
+              "extractedData": {
+                "sys": 120,
+                "dia": 80,
+                "dateTime": "2026-05-25T08:00:00.000Z"
+              },
+              "missingFields": [
+                "pulse"
+              ],
+              "confirmedAction": null,
+              "contextId": "dcd3c0db-0e63-41c0-86cf-e602e1d3d1c4"
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "userMsg": "I took it at 8:00 AM this morning",
+          "botResp": "Could you tell me the pulse for your blood_pressure entry?",
+          "elapsed": 192,
+          "passed": true,
+          "assertion": "blood pressure|recorded|logged|noted|thank|updated|8|time|when|date|pulse|heart",
+          "requestBody": {
+            "session_id": 8803,
+            "message": "I took it at 8:00 AM this morning",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8803,
+            "messageId": 85631,
+            "createdAt": "2026-05-25T06:54:47.410238+00:00",
+            "sender": "AI",
+            "message": "Could you tell me the pulse for your blood_pressure entry?",
+            "suggestActions": [
+              {
+                "id": 5911,
+                "type": "bloodPressure",
+                "status": "new",
+                "extractedData": {
+                  "sys": 120,
+                  "dia": 80,
+                  "dateTime": "2026-05-25T08:00:00.000Z"
+                },
+                "missingFields": [
+                  "pulse"
+                ],
+                "confirmedAction": null,
+                "contextId": "dcd3c0db-0e63-41c0-86cf-e602e1d3d1c4"
+              }
+            ]
+          },
+          "suggestActions": [
+            {
+              "id": 5911,
+              "type": "bloodPressure",
+              "status": "new",
+              "extractedData": {
+                "sys": 120,
+                "dia": 80,
+                "dateTime": "2026-05-25T08:00:00.000Z"
+              },
+              "missingFields": [
+                "pulse"
+              ],
+              "confirmedAction": null,
+              "contextId": "dcd3c0db-0e63-41c0-86cf-e602e1d3d1c4"
+            }
+          ]
+        },
+        {
+          "turn": 4,
+          "userMsg": "My pulse was 72",
+          "botResp": "Thank you for sharing your pulse reading of 72 bpm to go along with your blood pressure reading from this morning. It is great that you are keeping such a close eye on your cardiovascular health; how have you been feeling today?",
+          "elapsed": 6388,
+          "passed": true,
+          "assertion": "blood pressure|recorded|logged|noted|thank|updated|pulse|72|heart|saved",
+          "requestBody": {
+            "session_id": 8803,
+            "message": "My pulse was 72",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8803,
+            "messageId": 85633,
+            "createdAt": "2026-05-25T06:54:53.775628+00:00",
+            "sender": "AI",
+            "message": "Thank you for sharing your pulse reading of 72 bpm to go along with your blood pressure reading from this morning. It is great that you are keeping such a close eye on your cardiovascular health; how have you been feeling today?",
+            "suggestActions": [
+              {
+                "id": 5912,
+                "type": "bloodPressure",
+                "status": "new",
+                "extractedData": {
+                  "dia": 80,
+                  "sys": 120,
+                  "dateTime": "2026-05-25T08:00:00.000Z",
+                  "pulse": 72
+                },
+                "missingFields": null,
+                "confirmedAction": null,
+                "contextId": "dcd3c0db-0e63-41c0-86cf-e602e1d3d1c4"
+              }
+            ]
+          },
+          "suggestActions": [
+            {
+              "id": 5912,
+              "type": "bloodPressure",
+              "status": "new",
+              "extractedData": {
+                "dia": 80,
+                "sys": 120,
+                "dateTime": "2026-05-25T08:00:00.000Z",
+                "pulse": 72
+              },
+              "missingFields": null,
+              "confirmedAction": null,
+              "contextId": "dcd3c0db-0e63-41c0-86cf-e602e1d3d1c4"
+            }
+          ]
+        }
+      ],
+      "bugs": [],
+      "avgMs": 1747
+    }
+  ],
+  "04_hydration": [
+    {
+      "runNum": 1,
+      "sessionId": 8804,
+      "passed": true,
+      "assertionFails": 0,
+      "turns": [
+        {
+          "turn": 1,
+          "userMsg": "I want to track my daily hydration",
+          "botResp": "It’s a great idea to start tracking your hydration to build more consistency in your daily routine.\n\nThe Hydration program is designed to help you do exactly that by keeping your intake top-of-mind and providing simple, actionable insights. You can get started by heading to your \"My Plan\" section on the home screen and selecting Hydration to activate it.\n\nOnce you've set it up, here are a few simple steps to get going:\n\n- Select your current climate and activity level so the app can calculate a personalized daily goal for you.\n- Set up a few reminders to help you stay on track throughout the day.\n- Try logging your first drink to get a feel for how the tracker works.\n\nWould you like help finding the settings to adjust your daily goal once you've activated the program?",
+          "elapsed": 5660,
+          "passed": true,
+          "assertion": "goal|health|great|focus|hydration|water|support|ready|started|help",
+          "requestBody": {
+            "session_id": 8804,
+            "message": "I want to track my daily hydration",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8804,
+            "messageId": 85637,
+            "createdAt": "2026-05-25T06:54:59.522604+00:00",
+            "sender": "AI",
+            "message": "It’s a great idea to start tracking your hydration to build more consistency in your daily routine.\n\nThe Hydration program is designed to help you do exactly that by keeping your intake top-of-mind and providing simple, actionable insights. You can get started by heading to your \"My Plan\" section on the home screen and selecting Hydration to activate it.\n\nOnce you've set it up, here are a few simple steps to get going:\n\n- Select your current climate and activity level so the app can calculate a personalized daily goal for you.\n- Set up a few reminders to help you stay on track throughout the day.\n- Try logging your first drink to get a feel for how the tracker works.\n\nWould you like help finding the settings to adjust your daily goal once you've activated the program?",
+            "suggestActions": []
+          },
+          "suggestActions": []
+        },
+        {
+          "turn": 2,
+          "userMsg": "I just drank 300ml of water",
+          "botResp": "Could you please let me know what time you drank it?",
+          "elapsed": 264,
+          "passed": true,
+          "assertion": "water|hydration|recorded|logged|noted|300|drink|track|update|time|when|date",
+          "requestBody": {
+            "session_id": 8804,
+            "message": "I just drank 300ml of water",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8804,
+            "messageId": 85639,
+            "createdAt": "2026-05-25T06:54:59.772050+00:00",
+            "sender": "AI",
+            "message": "Could you please let me know what time you drank it?",
+            "suggestActions": [
+              {
+                "id": 5913,
+                "type": "hydration",
+                "status": "new",
+                "extractedData": {
+                  "amountInML": 300,
+                  "drinkType": "water"
+                },
+                "missingFields": [
+                  "dateTime"
+                ],
+                "confirmedAction": null,
+                "contextId": "8f0b6015-e18e-4c10-ab72-de84b2a3c0ce"
+              }
+            ]
+          },
+          "suggestActions": [
+            {
+              "id": 5913,
+              "type": "hydration",
+              "status": "new",
+              "extractedData": {
+                "amountInML": 300,
+                "drinkType": "water"
+              },
+              "missingFields": [
+                "dateTime"
+              ],
+              "confirmedAction": null,
+              "contextId": "8f0b6015-e18e-4c10-ab72-de84b2a3c0ce"
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "userMsg": "I drank it at 10:00 AM this morning",
+          "botResp": "Thank you for sharing that! I've noted your 300ml of water from this morning. How are you feeling as you continue your hydration goals for the rest of the day?",
+          "elapsed": 248,
+          "passed": true,
+          "assertion": "water|hydration|recorded|logged|noted|thank|updated|time|when|date",
+          "requestBody": {
+            "session_id": 8804,
+            "message": "I drank it at 10:00 AM this morning",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8804,
+            "messageId": 85641,
+            "createdAt": "2026-05-25T06:55:00.026327+00:00",
+            "sender": "AI",
+            "message": "Thank you for sharing that! I've noted your 300ml of water from this morning. How are you feeling as you continue your hydration goals for the rest of the day?",
+            "suggestActions": [
+              {
+                "id": 5914,
+                "type": "hydration",
+                "status": "new",
+                "extractedData": {
+                  "drinkType": "water",
+                  "amountInML": 300,
+                  "dateTime": "2026-05-25T10:00:00.000Z"
+                },
+                "missingFields": null,
+                "confirmedAction": null,
+                "contextId": "8f0b6015-e18e-4c10-ab72-de84b2a3c0ce"
+              }
+            ]
+          },
+          "suggestActions": [
+            {
+              "id": 5914,
+              "type": "hydration",
+              "status": "new",
+              "extractedData": {
+                "drinkType": "water",
+                "amountInML": 300,
+                "dateTime": "2026-05-25T10:00:00.000Z"
+              },
+              "missingFields": null,
+              "confirmedAction": null,
+              "contextId": "8f0b6015-e18e-4c10-ab72-de84b2a3c0ce"
+            }
+          ]
+        }
+      ],
+      "bugs": [],
+      "avgMs": 2057
+    }
+  ],
+  "05_weight": [
+    {
+      "runNum": 1,
+      "sessionId": 8805,
+      "passed": true,
+      "assertionFails": 0,
+      "turns": [
+        {
+          "turn": 1,
+          "userMsg": "I want to track my weight",
+          "botResp": "It's a great idea to start tracking your weight to better understand how your daily habits influence your health over time.\n\nBy using the weight management program, you can set a clear goal, calculate a personalized calorie budget, and monitor your progress through regular logging. This structure helps you build sustainable habits rather than focusing on quick fixes.\n\nTo get started with this, you can follow these steps:\n\n- Go to your Home Screen and tap the \"Add/Edit\" button on your \"My Plan\" section.\n- Select \"Weight\" to begin the setup flow.\n- Follow the prompts to set your target weight and choose a pace that feels comfortable for your lifestyle.\n\nOnce you've set your goal, the app will help you keep track of your progress and provide insights based on your activity and nutrition. Would you like me to explain more about how the calorie targets are calculated once you have your goal set?",
+          "elapsed": 179,
+          "passed": true,
+          "assertion": "goal|health|great|focus|weight|support|ready|started|help",
+          "requestBody": {
+            "session_id": 8805,
+            "message": "I want to track my weight",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8805,
+            "messageId": 85643,
+            "createdAt": "2026-05-25T06:55:00.344495+00:00",
+            "sender": "AI",
+            "message": "It's a great idea to start tracking your weight to better understand how your daily habits influence your health over time.\n\nBy using the weight management program, you can set a clear goal, calculate a personalized calorie budget, and monitor your progress through regular logging. This structure helps you build sustainable habits rather than focusing on quick fixes.\n\nTo get started with this, you can follow these steps:\n\n- Go to your Home Screen and tap the \"Add/Edit\" button on your \"My Plan\" section.\n- Select \"Weight\" to begin the setup flow.\n- Follow the prompts to set your target weight and choose a pace that feels comfortable for your lifestyle.\n\nOnce you've set your goal, the app will help you keep track of your progress and provide insights based on your activity and nutrition. Would you like me to explain more about how the calorie targets are calculated once you have your goal set?",
+            "suggestActions": []
+          },
+          "suggestActions": []
+        },
+        {
+          "turn": 2,
+          "userMsg": "My weight today is 68 kg",
+          "botResp": "Thank you for sharing your weight update of 68 kg today! It's great to see you staying consistent with your tracking. How are you feeling about your progress so far this week?",
+          "elapsed": 269,
+          "passed": true,
+          "assertion": "weight|recorded|logged|noted|68|kg|track|update",
+          "requestBody": {
+            "session_id": 8805,
+            "message": "My weight today is 68 kg",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8805,
+            "messageId": 85645,
+            "createdAt": "2026-05-25T06:55:00.603406+00:00",
+            "sender": "AI",
+            "message": " Thank you for sharing your weight update of 68 kg today! It's great to see you staying consistent with your tracking. How are you feeling about your progress so far this week?",
+            "suggestActions": [
+              {
+                "id": 5915,
+                "type": "weight",
+                "status": "new",
+                "extractedData": {
+                  "weight": 68,
+                  "unit": "kg",
+                  "dateTime": "2026-05-25T00:00:00.000Z"
+                },
+                "missingFields": null,
+                "confirmedAction": null,
+                "contextId": "93d0d876-2c0d-4cd6-bbf5-1652a72a2391"
+              }
+            ]
+          },
+          "suggestActions": [
+            {
+              "id": 5915,
+              "type": "weight",
+              "status": "new",
+              "extractedData": {
+                "weight": 68,
+                "unit": "kg",
+                "dateTime": "2026-05-25T00:00:00.000Z"
+              },
+              "missingFields": null,
+              "confirmedAction": null,
+              "contextId": "93d0d876-2c0d-4cd6-bbf5-1652a72a2391"
+            }
+          ]
+        }
+      ],
+      "bugs": [],
+      "avgMs": 224
+    }
+  ],
+  "06_exercise": [
+    {
+      "runNum": 1,
+      "sessionId": 8806,
+      "passed": true,
+      "assertionFails": 0,
+      "turns": [
+        {
+          "turn": 1,
+          "userMsg": "I want to track my exercise and activity",
+          "botResp": "It is great that you are looking to get a clearer picture of your daily movement and exercise.\n\nTracking your activity is a helpful way to see how your movement contributes to your energy levels and overall fitness goals. In Elfie, you can use the Calorie Burn program to monitor your physical activity, view breakdowns of your progress, and even sync data from your health apps to keep everything in one place.\n\nIf you would like to get started, here is a simple way to set it up:\n\n- Head to your \"Home Screen\" and select \"Add/Edit\" on your \"My Plan\" section.\n- Choose \"Calorie burn\" from the options to activate the tracker.\n- Once it is active, you can select your typical activity level and set a daily goal that feels right for you.\n\nWould you like me to walk you through how to sync your health data or how to log a specific activity manually once you have it set up?",
+          "elapsed": 194,
+          "passed": true,
+          "assertion": "goal|health|great|focus|exercise|activity|fitness|support|ready|started|help",
+          "requestBody": {
+            "session_id": 8806,
+            "message": "I want to track my exercise and activity",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8806,
+            "messageId": 85647,
+            "createdAt": "2026-05-25T06:55:00.870581+00:00",
+            "sender": "AI",
+            "message": "It is great that you are looking to get a clearer picture of your daily movement and exercise.\n\nTracking your activity is a helpful way to see how your movement contributes to your energy levels and overall fitness goals. In Elfie, you can use the Calorie Burn program to monitor your physical activity, view breakdowns of your progress, and even sync data from your health apps to keep everything in one place.\n\nIf you would like to get started, here is a simple way to set it up:\n\n- Head to your \"Home Screen\" and select \"Add/Edit\" on your \"My Plan\" section.\n- Choose \"Calorie burn\" from the options to activate the tracker.\n- Once it is active, you can select your typical activity level and set a daily goal that feels right for you.\n\nWould you like me to walk you through how to sync your health data or how to log a specific activity manually once you have it set up?",
+            "suggestActions": []
+          },
+          "suggestActions": []
+        },
+        {
+          "turn": 2,
+          "userMsg": "I went running for 30 minutes this morning",
+          "botResp": "That is a great way to start your day! Please review the details of your run in the tracker chip below to ensure everything is correct. How are you feeling after your workout?",
+          "elapsed": 286,
+          "passed": true,
+          "assertion": "run|exercise|activity|recorded|logged|noted|30|minute|track|update",
+          "requestBody": {
+            "session_id": 8806,
+            "message": "I went running for 30 minutes this morning",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8806,
+            "messageId": 85649,
+            "createdAt": "2026-05-25T06:55:01.126490+00:00",
+            "sender": "AI",
+            "message": " That is a great way to start your day! Please review the details of your run in the tracker chip below to ensure everything is correct. How are you feeling after your workout?",
+            "suggestActions": [
+              {
+                "id": 5916,
+                "type": "calorieBurn",
+                "status": "new",
+                "extractedData": {
+                  "type": "running",
+                  "durationInMinutes": 30,
+                  "dateTime": "2026-05-25T08:00:00.000Z"
+                },
+                "missingFields": null,
+                "confirmedAction": null,
+                "contextId": "8ff5b7be-2325-47ec-9eb4-485ff867d83d"
+              }
+            ]
+          },
+          "suggestActions": [
+            {
+              "id": 5916,
+              "type": "calorieBurn",
+              "status": "new",
+              "extractedData": {
+                "type": "running",
+                "durationInMinutes": 30,
+                "dateTime": "2026-05-25T08:00:00.000Z"
+              },
+              "missingFields": null,
+              "confirmedAction": null,
+              "contextId": "8ff5b7be-2325-47ec-9eb4-485ff867d83d"
+            }
+          ]
+        }
+      ],
+      "bugs": [],
+      "avgMs": 240
+    }
+  ],
+  "07_medication": [
+    {
+      "runNum": 1,
+      "sessionId": 8807,
+      "passed": true,
+      "assertionFails": 0,
+      "turns": [
+        {
+          "turn": 1,
+          "userMsg": "I want to track my medication",
+          "botResp": "It is a great idea to start tracking your medication, as consistency is one of the most effective ways to manage your health routines.\n\nSetting this up in Elfie is straightforward and helps ensure you never miss a dose. To get started, you can head to your \"Home Screen\" and click the \"Add/Edit\" button within the \"My Plan\" section, then select \"Medication.\" From there, you can add your specific medications manually or by using your phone camera to scan your prescription.\n\nOnce you have added your medications, you can set your personalized schedule to receive timely reminders. If you would like to get started now, I can walk you through any of those steps, or you can jump right into the app to begin organizing your routine.",
+          "elapsed": 221,
+          "passed": true,
+          "assertion": "goal|health|great|focus|medication|medicine|support|ready|started|help",
+          "requestBody": {
+            "session_id": 8807,
+            "message": "I want to track my medication",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8807,
+            "messageId": 85651,
+            "createdAt": "2026-05-25T06:55:01.477320+00:00",
+            "sender": "AI",
+            "message": "It is a great idea to start tracking your medication, as consistency is one of the most effective ways to manage your health routines.\n\nSetting this up in Elfie is straightforward and helps ensure you never miss a dose. To get started, you can head to your \"Home Screen\" and click the \"Add/Edit\" button within the \"My Plan\" section, then select \"Medication.\" From there, you can add your specific medications manually or by using your phone camera to scan your prescription.\n\nOnce you have added your medications, you can set your personalized schedule to receive timely reminders. If you would like to get started now, I can walk you through any of those steps, or you can jump right into the app to begin organizing your routine.",
+            "suggestActions": []
+          },
+          "suggestActions": []
+        },
+        {
+          "turn": 2,
+          "userMsg": "I took my blood pressure medication this morning",
+          "botResp": "BACKEND_SEARCH_DRUG",
+          "elapsed": 221,
+          "passed": true,
+          "assertion": "BACKEND_SEARCH_DRUG|pillbox|medication|medicine|recorded|logged|noted|taken",
+          "requestBody": {
+            "session_id": 8807,
+            "message": "I took my blood pressure medication this morning",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "code": "BACKEND_SEARCH_DRUG",
+            "payload": {
+              "items": [
+                {
+                  "object": null,
+                  "number": null,
+                  "unit": null,
+                  "dateTime": "2026-05-25T08:00:00.000Z",
+                  "medicationName": "blood pressure medication",
+                  "doseAmount": 1,
+                  "intakeStatus": "completed"
+                }
+              ]
+            }
+          },
+          "suggestActions": []
+        }
+      ],
+      "bugs": [
+        {
+          "turn": 1,
+          "type": "CLAIMED_LOG_NO_ACTION_RETURNED",
+          "actual": "It is a great idea to start tracking your medication, as consistency is one of the most effective ways to manage your health routines.\n\nSetting this up in Elfie is straightforward and helps ensure you never miss a dose. To get started, you can head to your \"Home Screen\" and click the \"Add/Edit\" butt"
+        }
+      ],
+      "avgMs": 221
+    }
+  ],
+  "08_symptom": [
+    {
+      "runNum": 1,
+      "sessionId": 8808,
+      "passed": true,
+      "assertionFails": 0,
+      "turns": [
+        {
+          "turn": 1,
+          "userMsg": "I want to log my symptoms",
+          "botResp": "I'm here to help you track your symptoms. Could you please tell me what symptoms you are currently experiencing?",
+          "elapsed": 1274,
+          "passed": true,
+          "assertion": "goal|health|great|focus|symptom|support|ready|started|help",
+          "requestBody": {
+            "session_id": 8808,
+            "message": "I want to log my symptoms",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8808,
+            "messageId": 85654,
+            "createdAt": "2026-05-25T06:55:03.075055+00:00",
+            "sender": "AI",
+            "message": "I'm here to help you track your symptoms. Could you please tell me what symptoms you are currently experiencing?",
+            "suggestActions": []
+          },
+          "suggestActions": []
+        },
+        {
+          "turn": 2,
+          "userMsg": "I have a mild headache since this morning",
+          "botResp": "I am sorry to hear that you have been dealing with a mild headache that started today. It sounds like you have been feeling a bit under the weather, and I appreciate you taking the time to track how you are feeling. For now, try to get some rest in a quiet, dimly lit space and ensure you are staying well-hydrated. If your headache persists, worsens, or you feel concerned, please reach out to a healthcare professional for further advice.",
+          "elapsed": 1352,
+          "passed": true,
+          "assertion": "headache|symptom|recorded|logged|noted|pain|discomfort|track|update",
+          "requestBody": {
+            "session_id": 8808,
+            "message": "I have a mild headache since this morning",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8808,
+            "messageId": 85656,
+            "createdAt": "2026-05-25T06:55:04.343152+00:00",
+            "sender": "AI",
+            "message": "I am sorry to hear that you have been dealing with a mild headache that started today. It sounds like you have been feeling a bit under the weather, and I appreciate you taking the time to track how you are feeling. For now, try to get some rest in a quiet, dimly lit space and ensure you are staying well-hydrated. If your headache persists, worsens, or you feel concerned, please reach out to a healthcare professional for further advice.",
+            "suggestActions": [
+              {
+                "id": 5917,
+                "type": "symptoms",
+                "status": "new",
+                "extractedData": {
+                  "analyzedText": "Detected: Headache",
+                  "symptoms": [
+                    {
+                      "symptomId": "SC_0010",
+                      "detailFields": {
+                        "QF_SEVERITY_4": [
+                          "mild"
+                        ],
+                        "QF_ONSET_TIME": [
+                          "today"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "missingFields": null,
+                "confirmedAction": null,
+                "contextId": "f09bdd16-1611-4d13-b41c-9daa78b25e61"
+              }
+            ]
+          },
+          "suggestActions": [
+            {
+              "id": 5917,
+              "type": "symptoms",
+              "status": "new",
+              "extractedData": {
+                "analyzedText": "Detected: Headache",
+                "symptoms": [
+                  {
+                    "symptomId": "SC_0010",
+                    "detailFields": {
+                      "QF_SEVERITY_4": [
+                        "mild"
+                      ],
+                      "QF_ONSET_TIME": [
+                        "today"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "missingFields": null,
+              "confirmedAction": null,
+              "contextId": "f09bdd16-1611-4d13-b41c-9daa78b25e61"
+            }
+          ]
+        }
+      ],
+      "bugs": [],
+      "avgMs": 1313
+    }
+  ],
+  "09_cholesterol": [
+    {
+      "runNum": 1,
+      "sessionId": 8809,
+      "passed": true,
+      "assertionFails": 0,
+      "turns": [
+        {
+          "turn": 1,
+          "userMsg": "I want to track my cholesterol levels",
+          "botResp": "It's a great idea to start monitoring your cholesterol, as it's a key part of staying on top of your cardiovascular health.\n\nSince high cholesterol often doesn't show symptoms, keeping a regular record of your lipid panel results—like your LDL, HDL, and triglycerides—is a helpful way to spot trends and stay informed about your heart health over time.\n\nTo get started with this in the app, you can follow these steps:\n\n- Go to your \"Home Screen\" and tap the \"Add/Edit\" button in the \"My Plan\" section.\n- Select the Cholesterol program from the list to activate it.\n- Once it's active, you can begin entering your latest test results to see how they compare to standard health guidelines.\n\nWould you like me to explain what some of those specific lipid numbers typically mean, or are you all set to get that set up?",
+          "elapsed": 185,
+          "passed": true,
+          "assertion": "goal|health|great|focus|cholesterol|support|ready|started|help",
+          "requestBody": {
+            "session_id": 8809,
+            "message": "I want to track my cholesterol levels",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8809,
+            "messageId": 85658,
+            "createdAt": "2026-05-25T06:55:04.668941+00:00",
+            "sender": "AI",
+            "message": "It's a great idea to start monitoring your cholesterol, as it's a key part of staying on top of your cardiovascular health.\n\nSince high cholesterol often doesn't show symptoms, keeping a regular record of your lipid panel results—like your LDL, HDL, and triglycerides—is a helpful way to spot trends and stay informed about your heart health over time.\n\nTo get started with this in the app, you can follow these steps:\n\n- Go to your \"Home Screen\" and tap the \"Add/Edit\" button in the \"My Plan\" section.\n- Select the Cholesterol program from the list to activate it.\n- Once it's active, you can begin entering your latest test results to see how they compare to standard health guidelines.\n\nWould you like me to explain what some of those specific lipid numbers typically mean, or are you all set to get that set up?",
+            "suggestActions": []
+          },
+          "suggestActions": []
+        },
+        {
+          "turn": 2,
+          "userMsg": "My cholesterol results: LDL 130, HDL 50, triglycerides 150 mg/dL",
+          "botResp": "Could you please let me know what time you received these results?",
+          "elapsed": 207,
+          "passed": true,
+          "assertion": "cholesterol|ldl|hdl|triglyceride|recorded|logged|noted|130|50|150|track|update|time|when|date",
+          "requestBody": {
+            "session_id": 8809,
+            "message": "My cholesterol results: LDL 130, HDL 50, triglycerides 150 mg/dL",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8809,
+            "messageId": 85660,
+            "createdAt": "2026-05-25T06:55:04.853964+00:00",
+            "sender": "AI",
+            "message": "Could you please let me know what time you received these results?",
+            "suggestActions": [
+              {
+                "id": 5918,
+                "type": "cholesterol",
+                "status": "new",
+                "extractedData": {
+                  "hdlc": 50,
+                  "ldlc": 130,
+                  "tg": 150,
+                  "unit": "mg/dL",
+                  "dateTime": ""
+                },
+                "missingFields": [
+                  "dateTime"
+                ],
+                "confirmedAction": null,
+                "contextId": "dda09cef-13f8-4ed4-9aab-30f6f069958f"
+              }
+            ]
+          },
+          "suggestActions": [
+            {
+              "id": 5918,
+              "type": "cholesterol",
+              "status": "new",
+              "extractedData": {
+                "hdlc": 50,
+                "ldlc": 130,
+                "tg": 150,
+                "unit": "mg/dL",
+                "dateTime": ""
+              },
+              "missingFields": [
+                "dateTime"
+              ],
+              "confirmedAction": null,
+              "contextId": "dda09cef-13f8-4ed4-9aab-30f6f069958f"
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "userMsg": "The results are from today, 2026-05-20",
+          "botResp": "Thank you for sharing those cholesterol results from May 20th! It's great to have these numbers organized so you can keep an eye on your heart health trends. How are you feeling today, and is this part of a regular check-up routine for you?",
+          "elapsed": 199,
+          "passed": true,
+          "assertion": "cholesterol|recorded|logged|noted|thank|updated|date|received|when",
+          "requestBody": {
+            "session_id": 8809,
+            "message": "The results are from today, 2026-05-20",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8809,
+            "messageId": 85662,
+            "createdAt": "2026-05-25T06:55:05.068812+00:00",
+            "sender": "AI",
+            "message": "Thank you for sharing those cholesterol results from May 20th! It's great to have these numbers organized so you can keep an eye on your heart health trends. How are you feeling today, and is this part of a regular check-up routine for you?",
+            "suggestActions": [
+              {
+                "id": 5919,
+                "type": "cholesterol",
+                "status": "new",
+                "extractedData": {
+                  "tg": 150,
+                  "hdlc": 50,
+                  "ldlc": 130,
+                  "unit": "mg/dL",
+                  "dateTime": "2026-05-20T00:00:00.000Z"
+                },
+                "missingFields": null,
+                "confirmedAction": null,
+                "contextId": "dda09cef-13f8-4ed4-9aab-30f6f069958f"
+              }
+            ]
+          },
+          "suggestActions": [
+            {
+              "id": 5919,
+              "type": "cholesterol",
+              "status": "new",
+              "extractedData": {
+                "tg": 150,
+                "hdlc": 50,
+                "ldlc": 130,
+                "unit": "mg/dL",
+                "dateTime": "2026-05-20T00:00:00.000Z"
+              },
+              "missingFields": null,
+              "confirmedAction": null,
+              "contextId": "dda09cef-13f8-4ed4-9aab-30f6f069958f"
+            }
+          ]
+        }
+      ],
+      "bugs": [],
+      "avgMs": 197
+    }
+  ],
+  "10_general_advice": [
+    {
+      "runNum": 1,
+      "sessionId": 8810,
+      "passed": true,
+      "assertionFails": 0,
+      "turns": [
+        {
+          "turn": 1,
+          "userMsg": "What should I eat to help lower my blood pressure?",
+          "botResp": "It is great that you are looking at how your diet can support your blood pressure goals.\n\nWhile I cannot provide specific medical meal plans, focusing on heart-healthy habits is a powerful way to manage your cardiovascular health. Generally, this involves prioritizing whole foods like fruits, vegetables, and whole grains while being mindful of sodium intake, which can contribute to higher readings.\n\nTo help you get started with tracking and managing your health, we can take a few simple steps:\n\n- If you haven't already, you can add the Blood Pressure program to your \"My Plan\" on the home screen to start logging your daily readings.\n- Once you have a few entries, we can look at your trends to see how your lifestyle choices might be impacting your numbers over time.\n- If you have a blood pressure monitor at home, I can help you set up a routine to ensure you are capturing accurate, consistent data.\n\nWould you like to start by setting up your blood pressure tracking, or would you prefer to discuss some general dietary principles that are often recommended for heart health?",
+          "elapsed": 268,
+          "passed": true,
+          "assertion": "diet|food|eat|sodium|salt|vegetable|fruit|potassium|recommend|suggest|help|blood pressure",
+          "requestBody": {
+            "session_id": 8810,
+            "message": "What should I eat to help lower my blood pressure?",
+            "language_code": "en",
+            "user_id": "botium-test"
+          },
+          "responseBody": {
+            "sessionId": 8810,
+            "messageId": 85664,
+            "createdAt": "2026-05-25T06:55:05.294349+00:00",
+            "sender": "AI",
+            "message": "It is great that you are looking at how your diet can support your blood pressure goals.\n\nWhile I cannot provide specific medical meal plans, focusing on heart-healthy habits is a powerful way to manage your cardiovascular health. Generally, this involves prioritizing whole foods like fruits, vegetables, and whole grains while being mindful of sodium intake, which can contribute to higher readings.\n\nTo help you get started with tracking and managing your health, we can take a few simple steps:\n\n- If you haven't already, you can add the Blood Pressure program to your \"My Plan\" on the home screen to start logging your daily readings.\n- Once you have a few entries, we can look at your trends to see how your lifestyle choices might be impacting your numbers over time.\n- If you have a blood pressure monitor at home, I can help you set up a routine to ensure you are capturing accurate, consistent data.\n\nWould you like to start by setting up your blood pressure tracking, or would you prefer to discuss some general dietary principles that are often recommended for heart health?",
+            "suggestActions": []
+          },
+          "suggestActions": []
+        }
+      ],
+      "bugs": [],
+      "avgMs": 268
+    }
+  ]
+}

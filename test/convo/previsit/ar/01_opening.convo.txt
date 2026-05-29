@@ -1,0 +1,4 @@
+Opening Message AR - Clinic Name and Purpose
+
+#bot
+(?=.*(?:أهل|مرحب|تحضير|مساعدت))(?=.*(?:زيار|اليوم|موعد|اسم))

@@ -1,0 +1,196 @@
+E2E - Full Pre-Visit Flow EN - Recurring Migraines
+
+#bot
+.+
+
+#me
+Yes please
+
+#bot
+.+
+
+#me
+Sarah Johnson
+
+#bot
+.+
+
+#me
+Yes let's go
+
+#bot
+.+
+
+#me
+Female
+
+#bot
+.+
+
+#me
+I was born in 1991
+
+#bot
+.+
+
+#me
+I have been getting recurring migraines about three to four times a month for the past six months and they are getting worse
+
+#bot
+.+
+
+#me
+During a migraine it is about an 8 out of 10, between attacks I feel completely fine
+
+#bot
+.+
+
+#me
+The pain is a severe throbbing on the left side of my head, I get nausea and I become very sensitive to light and sound during an attack
+
+#bot
+.+
+
+#me
+They started about six months ago and have been gradually getting more frequent
+
+#bot
+.+
+
+#me
+It is routine but the frequency is really worrying me
+
+#bot
+.+
+
+#me
+I have mild anxiety but nothing else
+
+#bot
+.+
+
+#me
+I had my appendix out when I was 22, that is all
+
+#bot
+.+
+
+#me
+My mother gets migraines too, my father has high blood pressure
+
+#bot
+.+
+
+#me
+I take sumatriptan when a migraine hits and sometimes ibuprofen as well
+
+#bot
+.+
+
+#me
+The sumatriptan works but it leaves me feeling very drowsy for the rest of the day
+
+#bot
+.+
+
+#me
+I take it as soon as I feel a migraine coming on, so pretty consistently when needed
+
+#bot
+.+
+
+#me
+I am allergic to penicillin, it gives me a rash
+
+#bot
+.+
+
+#me
+I do not track vitals, I weigh about 62 kilograms and I am 165 centimetres tall
+
+#bot
+.+
+
+#me
+The migraines are definitely getting more frequent, I used to get one a month and now it is three or four
+
+#bot
+.+
+
+#me
+No I do not smoke
+
+#bot
+.+
+
+#me
+I have a glass of wine on weekends occasionally, I know alcohol can be a trigger so I am careful
+
+#bot
+.+
+
+#me
+I walk for about 30 minutes every day but I cannot exercise at all when a migraine hits
+
+#bot
+.+
+
+#me
+I try to avoid processed foods and I have cut back on caffeine because I read it can trigger migraines
+
+#bot
+.+
+
+#me
+I usually get seven to eight hours but migraines often wake me up in the early morning
+
+#bot
+.+
+
+#me
+Moderate to high, I have a demanding job and the migraines are adding to my stress
+
+#bot
+.+
+
+#me
+I have mild anxiety as I mentioned and lately I am anxious about how frequent the migraines are becoming, it is affecting my work and my confidence
+
+#bot
+.+
+
+#me
+No recent travel, I have been at home and in the office
+
+#bot
+.+
+
+#me
+I am coming on my own
+
+#bot
+.+
+
+#me
+Yes I consent
+
+#bot
+.+
+
+#me
+I see my GP regularly but I have never seen a neurologist
+
+#bot
+.+
+
+#me
+I want to know if I should be referred to a neurologist and whether there is a preventive medication I could take so I am not relying on sumatriptan every time
+
+#bot
+(?=.*(?:completed|finished|download|summary|information|ready|all set|notes|thank))
+
+#me
+I should also mention that I have been using an eye mask and a cold pack during attacks which helps a little
+
+#bot
+.+

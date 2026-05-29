@@ -1,0 +1,196 @@
+Live Regression - Full Pre-Visit Flow EN - Knee Pain
+
+#bot
+.+
+
+#me
+Sure, let's get started
+
+#bot
+.+
+
+#me
+James Nguyen
+
+#bot
+.+
+
+#me
+Yes
+
+#bot
+.+
+
+#me
+Male
+
+#bot
+.+
+
+#me
+I was born in 1987
+
+#bot
+.+
+
+#me
+I have been having sharp pain in my right knee for about ten days, it started after a football game and has not improved
+
+#bot
+.+
+
+#me
+I don't think it's an emergency but it's stopping me from doing basic things like climbing stairs
+
+#bot
+.+
+
+#me
+The pain is on the outer side of my knee, sharp when I bend it or put weight on it, and there is some swelling around the joint
+
+#bot
+.+
+
+#me
+Ten days ago during a football match, I felt a pop and then immediate pain
+
+#bot
+.+
+
+#me
+About a 7 out of 10 when I move it, maybe a 3 when resting
+
+#bot
+.+
+
+#me
+No chronic conditions
+
+#bot
+.+
+
+#me
+I had my tonsils out when I was eight, nothing else
+
+#bot
+.+
+
+#me
+My dad has type 2 diabetes, my mum is healthy as far as I know
+
+#bot
+.+
+
+#me
+I have been taking ibuprofen 400mg twice a day and using an ice pack on the knee
+
+#bot
+.+
+
+#me
+Pretty consistently for the past ten days
+
+#bot
+.+
+
+#me
+No known allergies
+
+#bot
+.+
+
+#me
+The ibuprofen takes the edge off but the swelling is still there and it still hurts to bend
+
+#bot
+.+
+
+#me
+I don't track vitals, I weigh about 78kg and I am 178cm tall
+
+#bot
+.+
+
+#me
+It has stayed about the same, maybe slightly better when I rest but worse when I try to walk
+
+#bot
+.+
+
+#me
+I don't smoke
+
+#bot
+.+
+
+#me
+I have a few beers on weekends, nothing during the week
+
+#bot
+.+
+
+#me
+I play football twice a week and go to the gym, but I haven't been able to since this happened
+
+#bot
+.+
+
+#me
+Normal diet, I eat at home most days, nothing specific
+
+#bot
+.+
+
+#me
+About 7 hours, I sometimes wake up if I move my leg in the wrong direction
+
+#bot
+.+
+
+#me
+Low to moderate, work is fine, the knee is the main thing stressing me out right now
+
+#bot
+.+
+
+#me
+I am frustrated honestly, I play football every week and this is really affecting my routine and my mental health
+
+#bot
+.+
+
+#me
+No recent travel, I have been local
+
+#bot
+.+
+
+#me
+No, coming alone
+
+#bot
+.+
+
+#me
+Yes I consent
+
+#bot
+.+
+
+#me
+No other doctors
+
+#bot
+.+
+
+#me
+I want to know if this is a ligament injury and whether I need an MRI or physiotherapy
+
+#bot
+(?=.*(?:completed|finished|download|summary|information|ready|all set|notes|thank))
+
+#me
+I also forgot to mention I have been wearing a knee brace since the injury
+
+#bot
+.+

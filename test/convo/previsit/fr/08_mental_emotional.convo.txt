@@ -1,0 +1,37 @@
+Mental Emotional FR - Anxiety Low Mood Empathy Check
+
+#include _opening
+
+#bot
+(?=.*(?:genre|sexe))(?=.*(?:partager|âge|votre|pourriez|pouvez))
+
+#me
+Femme
+
+#bot
+(?=.*(?:âge|ans))(?=.*(?:quel|votre|avez-vous|pouvez|préciser))
+
+#me
+27
+
+#bot
+(?=.*(?:motif|raison|amène|pourquoi))(?=.*(?:visite|aujourd'hui|médecin|consultation))
+
+#me
+Je me sens mal depuis quelques semaines
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|urgence|urgente))
+
+#me
+Routine
+
+#bot
+(?=.*(?:merci|précis|noté|clarifi))(?=.*(?:question|médecin|aborder|discuter|mentionner|ajouter))
+
+#me
+Je me sens assez anxieuse et déprimée ces derniers temps
+
+#bot
+(?=.*(?:rempli|merci|comprends|mis à jour|émotionnel|téléchargez))(?=.*(?:complété|téléchargez|résumé|informations|médecin|visite))
+

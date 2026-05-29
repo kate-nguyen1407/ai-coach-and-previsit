@@ -1,0 +1,31 @@
+Visit Context VI - Reason For Visit
+
+#include _opening
+
+#bot
+(?=.*(?:giới tính))(?=.*(?:nam|nữ|chia sẻ|cho biết|của bạn))
+
+#me
+Nam
+
+#bot
+(?=.*(?:tuổi))(?=.*(?:bao nhiêu|cho biết|chia sẻ|của bạn|hiện tại))
+
+#me
+28
+
+#bot
+(?=.*(?:lý do|khám|mục đích))(?=.*(?:hôm nay|bác sĩ|chia sẻ|cho biết|viếng thăm))
+
+#me
+Tôi bị đau lưng dưới ba ngày nay
+
+#bot
+(?=.*(?:thông thường))(?=.*(?:khẩn cấp|cấp cứu))
+
+#me
+Thông thường
+
+#bot
+(?=.*(?:ghi nhận|cảm ơn))(?=.*(?:chuẩn bị|tóm tắt|tiếp tục|thông tin|clarifi))
+

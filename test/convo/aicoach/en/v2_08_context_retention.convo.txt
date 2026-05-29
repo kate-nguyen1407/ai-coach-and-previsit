@@ -1,0 +1,37 @@
+Context Retention - Cross-Topic Recall Within Session
+
+#me
+I want to track my blood sugar and overall health
+
+#bot
+goal|health|great|focus|blood sugar|glucose|support|ready|started|help
+
+#me
+My blood sugar this morning was 148 mg/dL before breakfast
+
+#bot
+blood sugar|glucose|148|logged|noted|recorded|time|when|date
+
+#me
+I took it at 7:00 AM this morning
+
+#bot
+blood sugar|glucose|148|logged|noted|recorded|thank|7
+
+#me
+I also went for a 30 minute walk after lunch today
+
+#bot
+walk|exercise|activity|logged|noted|great|time|when|date
+
+#me
+Around 1:00 PM
+
+#bot
+walk|exercise|logged|noted|thank|recorded
+
+#me
+Based on everything I have shared today, should I be concerned about my blood sugar reading?
+
+#bot
+AI_RESPONSE_ASSERTER the response references the specific blood sugar value of 148 mg/dL that was logged earlier in this session — it does not give generic advice without connecting to the actual data|the response contextualises the reading in relation to normal fasting ranges and what 148 mg/dL before breakfast may indicate|the response also acknowledges the walk logged in this session and connects physical activity to blood sugar management|the response recommends consulting a healthcare provider if the elevated reading is a pattern, without being dismissive or alarmist

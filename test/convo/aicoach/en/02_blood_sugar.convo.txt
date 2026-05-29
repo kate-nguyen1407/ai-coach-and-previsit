@@ -1,0 +1,19 @@
+Blood Sugar Logging
+
+#me
+I want to track my blood sugar
+
+#bot
+goal|health|great|focus|blood sugar|glucose|support|ready|started|help
+
+#me
+My blood sugar is 120 mg/dL before breakfast
+
+#bot
+blood sugar|glucose|recorded|logged|noted|120|track|update|time|when|date
+
+#me
+I took it at 7:00 AM this morning
+
+#bot
+blood sugar|glucose|recorded|logged|noted|thank|updated|7|time|when|date

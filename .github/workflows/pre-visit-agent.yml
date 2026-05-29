@@ -1,0 +1,77 @@
+name: Pre-Visit Agent — Full Suite
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+    inputs:
+      elfie_env:
+        description: 'Target environment'
+        required: false
+        default: 'staging'
+        type: choice
+        options: [staging, prod]
+
+concurrency:
+  group: pre-visit-agent-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Pre-Visit Agent (${{ matrix.language }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [en, fr, vi]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run pre-visit agent suite — ${{ matrix.language }}
+        env:
+          ELFIE_ENV:        ${{ github.event.inputs.elfie_env || 'staging' }}
+          ELFIE_API_KEY:    ${{ secrets.ELFIE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TEST_LANGUAGE:    ${{ matrix.language }}
+        run: |
+          npx mocha \
+            --timeout 90000 \
+            --reporter spec \
+            "test/convo/elfie.suite.spec.js"
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-${{ matrix.language }}
+          path: test-results-${{ matrix.language }}.json
+          if-no-files-found: ignore
+
+  summary:
+    name: Suite summary
+    runs-on: ubuntu-latest
+    needs: test
+    if: always()
+    steps:
+      - name: Check all languages passed
+        run: |
+          if [ "${{ needs.test.result }}" = "failure" ]; then
+            echo "One or more language suites failed"
+            exit 1
+          fi
+          echo "All language suites passed"

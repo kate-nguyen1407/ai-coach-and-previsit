@@ -1,0 +1,13 @@
+Goal Setting - Weight Loss Target
+
+#me
+I want to lose 5 kilograms in the next three months
+
+#bot
+goal|weight|plan|healthy|achieve|support|loss|month|realistic|help
+
+#me
+I am ready to change my diet and exercise more
+
+#bot
+diet|change|support|help|nutrition|healthy|plan|ready|exercise|great|step

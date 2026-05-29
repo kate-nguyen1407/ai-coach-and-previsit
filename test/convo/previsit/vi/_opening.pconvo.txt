@@ -1,0 +1,13 @@
+_opening
+
+#bot
+(?=.*(?:tên))(?=.*(?:Chào|cho biết|chia sẻ|bạn có thể|cung cấp))
+
+#me
+Test User
+
+#bot
+(?=.*(?:cảm ơn|vui|tuyệt|hân hạnh))(?=.*(?:tóm tắt|thông tin|hồ sơ|chuẩn bị|ghi lại))
+
+#me
+Vâng

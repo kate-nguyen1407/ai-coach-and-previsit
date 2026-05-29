@@ -1,0 +1,21 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "Pre-Visit Agent",
+      "CONTAINERMODE": "simplerest",
+      "SECURITY_ALLOW_UNSAFE": true,
+      "SIMPLEREST_URL": "https://api.stg.elfie.co/agent/api/v1/ai-coach/chat",
+      "SIMPLEREST_METHOD": "POST",
+      "SIMPLEREST_HEADERS_TEMPLATE": {
+        "Content-Type": "application/json",
+        "x-api-key": ""
+      },
+      "SIMPLEREST_RESPONSE_JSONPATH": "$.message",
+      "SCRIPTING_MATCHING_MODE": "regexpIgnoreCase",
+      "SIMPLEREST_INIT_TEXT": "start conversation",
+      "SIMPLEREST_INIT_PROCESS_RESPONSE": true,
+      "SIMPLEREST_START_HOOK": "/Users/katenguyen/Downloads/botium/botium-core/botium-hook-previsit.js",
+      "SIMPLEREST_TIMEOUT": 60000
+    }
+  }
+}

@@ -1,0 +1,13 @@
+Time Horizon Awareness - Immediate Concern and Long-Term Goal
+
+#me
+I want to improve my cardiovascular health
+
+#bot
+goal|health|great|focus|cardio|heart|support|ready|started|help
+
+#me
+I feel short of breath just walking up the stairs today, which worries me. I really want to get fit enough to run a 5K by the end of the year.
+
+#bot
+AI_RESPONSE_ASSERTER the response addresses both the immediate concern (shortness of breath today) and the long-term goal (5K by end of year) — not just one or the other|for the immediate concern, the response shows appropriate care and does not dismiss it as normal or minor|for the long-term goal, the response acknowledges it as a meaningful target and connects it to a realistic next step or coaching path|the response demonstrates awareness of two different time horizons — what matters right now versus what the user is working toward over months

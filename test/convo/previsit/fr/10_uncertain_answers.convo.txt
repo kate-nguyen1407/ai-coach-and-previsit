@@ -1,0 +1,49 @@
+Uncertain Answers FR - Not Sure Maybe I Think Prefer Not To Say
+
+#include _opening
+
+#bot
+(?=.*(?:genre|sexe))(?=.*(?:partager|âge|votre|pourriez|pouvez))
+
+#me
+Je préfère ne pas répondre
+
+#bot
+(?=.*(?:comprends|noté|accepte|passer))(?=.*(?:préférence|âge|suite|continuer))
+
+#me
+Je ne sais pas exactement
+
+#bot
+(?=.*(?:comprends|noté|incertain))(?=.*(?:raison|visite|motif|consultation|médecin))
+
+#me
+Je me sens juste mal, pas sûr de ce qui ne va pas
+
+#bot
+(?=.*(?:comprends|noté|incertain))(?=.*(?:routine|urgent|urgence|clarifi|symptôme))
+
+#me
+Routine, je pense
+
+#bot
+(?=.*(?:merci|clarifi))(?=.*(?:symptôme|décrire|experiencing|douleur|ressentez))
+
+#me
+Je ne sais pas comment décrire la douleur
+
+#bot
+(?=.*(?:comprends|passer|noté))(?=.*(?:depuis|évolution|apparu|durée|intensité))
+
+#me
+Peut-être 5 sur 10
+
+#bot
+(?=.*(?:merci|noté))(?=.*(?:depuis|apparu|combien|temps|évolution|symptôme|question|médecin))
+
+#me
+Je ne suis pas entièrement sûr de ce que je dois demander
+
+#bot
+(?=.*(?:médecin|noter|suggère))(?=.*(?:question|discuter|aide|aborder|visite))
+

@@ -1,0 +1,13 @@
+User Resistance - Coaching Adaptation Without Pushiness
+
+#me
+I want to track my health metrics
+
+#bot
+goal|health|great|focus|support|ready|started|help
+
+#me
+I am not interested in lifestyle advice or tips. I just want to log my data and nothing else.
+
+#bot
+AI_RESPONSE_ASSERTER the response respects the user's stated preference without making them feel judged or dismissed — it acknowledges what they have said|the response confirms it will focus on tracking their numbers as requested — it does not repeat lifestyle advice or sneak tips in at the end|the response leaves the door open for coaching in the future without being pushy, for example by saying the user can ask whenever they are ready|the tone remains warm and supportive — the bot does not become cold or transactional just because the user set a boundary

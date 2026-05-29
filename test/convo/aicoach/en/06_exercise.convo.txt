@@ -1,0 +1,13 @@
+Exercise Logging
+
+#me
+I want to track my exercise and activity
+
+#bot
+goal|health|great|focus|exercise|activity|fitness|support|ready|started|help
+
+#me
+I went running for 30 minutes this morning
+
+#bot
+run|exercise|activity|recorded|logged|noted|30|minute|track|update

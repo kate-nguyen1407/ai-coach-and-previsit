@@ -1,0 +1,49 @@
+Medical History FR - Chronic Conditions Surgeries Family History
+
+#include _opening
+
+#bot
+(?=.*(?:genre|sexe))(?=.*(?:partager|âge|votre|pourriez|pouvez))
+
+#me
+Homme
+
+#bot
+(?=.*(?:âge|ans))(?=.*(?:quel|votre|avez-vous|pouvez|préciser))
+
+#me
+40
+
+#bot
+(?=.*(?:motif|raison|amène|pourquoi))(?=.*(?:visite|aujourd'hui|médecin|consultation))
+
+#me
+Je me sens fatigué tout le temps depuis un mois
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|urgence|urgente))
+
+#me
+Routine
+
+#bot
+(?=.*(?:merci|précis|noté|clarifi))(?=.*(?:chronique|maladie|antécédent|médical|condition))
+
+#me
+Pas de maladies chroniques
+
+#bot
+(?=.*(?:merci|comprends))(?=.*(?:chirurgie|intervention|opération|procédure|passé))
+
+#me
+Pas de chirurgies
+
+#bot
+(?=.*(?:merci|comprends))(?=.*(?:famille|familial|héréditaire|parent|antécédent))
+
+#me
+Mon père avait une maladie cardiaque
+
+#bot
+(?=.*(?:merci|comprends|famille|cardiaque))(?=.*(?:complété|résumé|télécharger|médecin|visite))
+

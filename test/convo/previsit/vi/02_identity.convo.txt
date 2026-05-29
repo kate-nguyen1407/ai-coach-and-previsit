@@ -1,0 +1,19 @@
+Identity Collection VI - Name Age Gender
+
+#include _opening
+
+#bot
+(?=.*(?:giới tính))(?=.*(?:nam|nữ|chia sẻ|cho biết|của bạn))
+
+#me
+Nữ
+
+#bot
+(?=.*(?:tuổi))(?=.*(?:bao nhiêu|cho biết|chia sẻ|của bạn|hiện tại))
+
+#me
+32
+
+#bot
+(?=.*(?:câu hỏi|bác sĩ|cảm ơn))(?=.*(?:bác sĩ|câu hỏi|thêm|gặp|hỗ trợ))
+

@@ -1,0 +1,103 @@
+{
+  "suite": "Care UI End-to-End Regression",
+  "environment": "staging",
+  "slug": "jk-clinic-4k2q",
+  "host": "care.stg.elfie.co",
+  "timestamp": "2026-05-26T05:39:51.938Z",
+  "ai_judge": "http://localhost:11434/v1 / llama3.1",
+  "summary": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "duration_ms": 13485
+  },
+  "scenarios": [
+    {
+      "name": "James Nguyen — Right Knee Pain (EN)",
+      "state": "passed",
+      "duration_ms": 6833,
+      "summary_validation": {
+        "captured": true,
+        "sessionId": 9140,
+        "summary": {
+          "user_info": {
+            "age": "35",
+            "name": "Sarah Johnson",
+            "gender": "female"
+          },
+          "key_signals": {
+            "symptoms": "The patient reports severe throbbing on the left side of the head, nausea, and photophobia and phonophobia, with an onset six months ago and a severity level of severe.",
+            "relevant_history": "The patient has a history of mild anxiety, a previous appendectomy, and a family history significant for migraines in the mother and hypertension in the father.",
+            "emotional_context": "The patient reports symptoms of anxiety.",
+            "medications_allergies": "The patient is currently taking sumatriptan and ibuprofen with full adherence, reporting the treatment as somewhat effective; she has a known allergy to penicillin manifesting as a rash.",
+            "lifestyle_other_context": "The patient is a non-smoker, consumes alcohol socially or rarely, engages in 30 minutes of daily walking, follows a diet avoiding processed foods with reduced caffeine intake, and reports seven to eight hours of sleep, though migraines frequently cause early morning awakenings.",
+            "monitoring_measurements": "Self-reported vital signs include a weight of 62 kg and a height of 165 cm, with the patient noting that her condition has worsened since the last visit.",
+            "exposure_environmental_context": "The patient reports no recent travel, having remained at home and the office."
+          },
+          "quick_summary": {
+            "main_concern": "The patient presents for a consultation regarding recurring migraines.",
+            "patient_priority": "Routine"
+          },
+          "patient_insights": [
+            "Patient expresses significant concern regarding the increasing frequency of their migraines.",
+            "Patient is motivated to explore preventive treatment options to reduce reliance on acute medication."
+          ],
+          "patient_questions": {
+            "patient_questions": [
+              "I want to know if I should be referred to a neurologist and whether there is a preventive medication I could take so I am not relying on sumatriptan every time"
+            ]
+          },
+          "suggested_consultation_focus": {
+            "review": "Review the side effect profile of current acute medications and their impact on daily functioning.",
+            "clarify": "Clarify the progression of migraine frequency and intensity over the last six months.",
+            "discuss": "Discuss the patient's request for a neurology referral and potential preventive treatment options."
+          }
+        },
+        "checks": [
+          {
+            "label": "patient name contains Sarah",
+            "terms": [
+              "sarah"
+            ],
+            "matched": true
+          },
+          {
+            "label": "complaint mentions migraine or headache",
+            "terms": [
+              "migraine",
+              "headache"
+            ],
+            "matched": true
+          },
+          {
+            "label": "medications mention sumatriptan",
+            "terms": [
+              "sumatriptan"
+            ],
+            "matched": true
+          },
+          {
+            "label": "allergies mention penicillin",
+            "terms": [
+              "penicillin"
+            ],
+            "matched": true
+          },
+          {
+            "label": "patient questions mention neurologist or preventive",
+            "terms": [
+              "neurologist",
+              "preventive"
+            ],
+            "matched": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sarah Johnson — Recurring Migraines (EN)",
+      "state": "passed",
+      "duration_ms": 6652
+    }
+  ]
+}

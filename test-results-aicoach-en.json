@@ -1,0 +1,18 @@
+{
+  "language": "en",
+  "environment": "staging",
+  "host": "api.stg.elfie.co",
+  "scenarios": [
+    "01_food_logging",
+    "02_calorie_query",
+    "03_fatigue_report",
+    "04_exercise_logging",
+    "05_hydration_tracking",
+    "06_sleep_concern",
+    "07_stress_emotional",
+    "08_goal_setting",
+    "09_dietary_advice",
+    "10_medical_concern"
+  ],
+  "timestamp": "2026-05-26T04:15:32.964Z"
+}

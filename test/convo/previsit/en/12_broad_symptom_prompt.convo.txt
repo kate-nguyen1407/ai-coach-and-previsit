@@ -1,0 +1,38 @@
+Broad Grouped Prompt - Symptoms Bundled In One Question
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Female
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+29
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have been having daily headaches for three weeks
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|emergency))
+
+#me
+routine
+
+#bot
+(?=.*(?:describe|tell me|feeling|experiencing|what))(?=.*(?:when|started|how long|begin|ago|duration))(?=.*(?:strong|intense|severe|scale|worse|better|changing|impact|affect))
+AI_RESPONSE_ASSERTER the response asks exactly one grouped question that naturally bundles symptom description, onset, and severity — not three separate sequential questions|the question uses open-ended inviting language that allows a narrative response rather than a structured fill-in-the-blank format|the tone is warm and empathetic, not robotic or clinical
+
+#me
+The headaches are throbbing, mostly at the front of my head. They started exactly three weeks ago, I would rate them about a 6 out of 10, and they tend to get worse in the afternoon with no sign of improving.
+
+#bot
+(?=.*(?:thank|noted|understand|appreciate|helpful|clearer))(?=.*(?:question|doctor|concern|anything|add|complete|ready|all set))
+

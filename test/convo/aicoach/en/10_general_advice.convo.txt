@@ -1,0 +1,7 @@
+General Health Advice
+
+#me
+What should I eat to help lower my blood pressure?
+
+#bot
+diet|food|eat|sodium|salt|vegetable|fruit|potassium|recommend|suggest|help|blood pressure

@@ -1,0 +1,44 @@
+Submission Format - Collaborative Completion Message
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Female
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+34
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have had lower back pain for two weeks that is affecting my daily activities
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|emergency))
+
+#me
+routine
+
+#bot
+(?=.*(?:noted|thank|understand|clarif))(?=.*(?:symptom|describe|detail|pain|discomfort|experience))
+
+#me
+The pain is dull and constant in my lower back, started two weeks ago, roughly a 5 out of 10, gets significantly worse when I sit for long periods
+
+#bot
+(?=.*(?:noted|thank|appreciate|understand))(?=.*(?:question|doctor|concern|goal|anything|add|specific))
+
+#me
+No questions for the doctor
+
+#bot
+(?=.*(?:all set|completed|ready|prepared|clinic|summary))(?=.*(?:copy|review|missing|incorrect|clarify|correct))(?=.*(?:help|question|understand|prepare|elfie|next|visit|discuss|anything))
+AI_RESPONSE_ASSERTER the closing message mentions providing or sending a summary copy to the patient — not only forwarding to the clinic|the message explicitly invites the patient to review, correct, or add to their information before the visit|the overall tone is collaborative and supportive, treating the patient as a participant — not a transactional confirmation like "submission complete"
+

@@ -1,0 +1,49 @@
+Medical History VI - Chronic Conditions Surgeries Family History
+
+#include _opening
+
+#bot
+(?=.*(?:giới tính))(?=.*(?:nam|nữ|chia sẻ|cho biết|của bạn))
+
+#me
+Nam
+
+#bot
+(?=.*(?:tuổi))(?=.*(?:bao nhiêu|cho biết|chia sẻ|của bạn|hiện tại))
+
+#me
+40
+
+#bot
+(?=.*(?:lý do|khám|mục đích))(?=.*(?:hôm nay|bác sĩ|chia sẻ|cho biết|viếng thăm))
+
+#me
+Tôi cảm thấy mệt mỏi suốt một tháng nay
+
+#bot
+(?=.*(?:thông thường))(?=.*(?:khẩn cấp|cấp cứu))
+
+#me
+Thông thường
+
+#bot
+(?=.*(?:ghi nhận|cảm ơn))(?=.*(?:mãn tính|bệnh|tiền sử|tình trạng|sức khỏe))
+
+#me
+Không có bệnh mãn tính
+
+#bot
+(?=.*(?:cảm ơn|ghi nhận))(?=.*(?:phẫu thuật|can thiệp|mổ|thủ thuật|tiền sử))
+
+#me
+Không có phẫu thuật
+
+#bot
+(?=.*(?:cảm ơn|ghi nhận))(?=.*(?:gia đình|thân nhân|di truyền|tiền sử|bố|mẹ))
+
+#me
+Bố tôi bị bệnh tim
+
+#bot
+(?=.*(?:tiền sử|gia đình|cảm ơn|tim))(?=.*(?:hoàn tất|tóm tắt|bác sĩ|tải xuống|visite))
+

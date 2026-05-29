@@ -1,0 +1,38 @@
+Patient Redirect - Graceful Handling of Off-Topic Request
+
+#include _opening
+
+#bot
+(?=.*(?:gender|sex))(?=.*(?:share|please|age|could|your|tell))
+
+#me
+Female
+
+#bot
+(?=.*(?:age|how old|years))(?=.*(?:you|are|your))
+
+#me
+41
+
+#bot
+(?=.*(?:reason|brings|why|purpose|concern))(?=.*(?:visit|today|here|appointment|doctor))
+
+#me
+I have been having stomach problems lately
+
+#bot
+(?=.*(?:routine))(?=.*(?:urgent|emergency))
+
+#me
+routine
+
+#bot
+(?=.*(?:noted|thank|understand|clarif))(?=.*(?:symptom|describe|detail|pain|discomfort|experience|stomach))
+
+#me
+Can you tell me what might be causing my stomach problems?
+
+#bot
+(?=.*(?:help|happy|glad|sure|can|understand|absolutely))(?=.*(?:finish|first|continue|preparation|summary|clinic|complete|before|then|after))
+AI_RESPONSE_ASSERTER the response acknowledges the patient's off-topic question without dismissing or ignoring it|the response explains that it will address the question after completing the intake — giving the patient a reason, not just a refusal|the response gives the patient a sense of agency or choice rather than a hard block
+

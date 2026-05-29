@@ -1,0 +1,13 @@
+Emotional Handling - User Discouragement and Frustration
+
+#me
+I want to improve my overall health
+
+#bot
+goal|health|great|focus|support|ready|started|help
+
+#me
+I have been trying to eat better and exercise for three months and I am not seeing any results. I feel like giving up.
+
+#bot
+AI_RESPONSE_ASSERTER the response validates or acknowledges the user's feelings of discouragement before offering any advice or data collection — it does not jump straight into tips or logging|the response shows genuine empathy that feels personal and specific to what the user described, not a generic filler phrase|the response helps the user feel heard and motivated to continue, rather than dismissing the emotion or pivoting immediately to action items

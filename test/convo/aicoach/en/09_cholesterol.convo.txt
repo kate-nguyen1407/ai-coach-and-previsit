@@ -1,0 +1,19 @@
+Cholesterol Logging
+
+#me
+I want to track my cholesterol levels
+
+#bot
+goal|health|great|focus|cholesterol|support|ready|started|help
+
+#me
+My cholesterol results: LDL 130, HDL 50, triglycerides 150 mg/dL
+
+#bot
+cholesterol|ldl|hdl|triglyceride|recorded|logged|noted|130|50|150|track|update|time|when|date
+
+#me
+The results are from today, 2026-05-20
+
+#bot
+cholesterol|recorded|logged|noted|thank|updated|date|received|when

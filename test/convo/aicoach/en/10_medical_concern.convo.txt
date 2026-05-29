@@ -1,0 +1,19 @@
+Medical Concern Escalation - Chest Pain Symptom
+
+#me
+I want to monitor my overall health and symptoms
+
+#bot
+goal|health|great|focus|symptom|support|ready|started|help|monitor
+
+#me
+I have been having chest pains occasionally
+
+#bot
+chest|pain|doctor|consult|concern|medical|attention|please|important|see
+
+#me
+It usually happens right after eating a big meal
+
+#bot
+after|meal|eating|doctor|consult|concern|medical|check|heartburn|acid|reflux|see

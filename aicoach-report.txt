@@ -1,0 +1,334 @@
+════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+ELFIE CARE — AI COACH TEST REPORT
+Generated : 2026-05-25T06:55:05.155Z
+API host  : https://api.stg.elfie.co  [staging]
+Scenarios : 10  |  Runs : 1
+════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+PASS / FAIL SUMMARY
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Scenario                                 Result       Avg resp (ms)      Bugs
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+01_greeting                              1/1 ✓        172ms              -
+02_blood_sugar                           1/1 ✓        234ms              -
+03_blood_pressure                        1/1 ✓        1747ms             -
+04_hydration                             1/1 ✓        2057ms             -
+05_weight                                1/1 ✓        224ms              -
+06_exercise                              1/1 ✓        240ms              -
+07_medication                            1/1 ✓        221ms              1 bug(s)
+08_symptom                               1/1 ✓        1313ms             -
+09_cholesterol                           1/1 ✓        197ms              -
+10_general_advice                        1/1 ✓        268ms              -
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+OVERALL                                  10/10
+
+════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+FULL TRANSCRIPT — REQUEST & RESPONSE PER TURN
+════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ SCENARIO: 01_greeting                                                                                               │
+│ Session : 8801                                                                                                      │
+│ Result  : ✓ PASSED                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+  ── Turn 1 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → Hello
+  RESPONSE ← Hello! It's great to connect with you. I'm here to help you navigate your health questions and provide information to support your well-being.
+
+Is there a specific health topic or goal you're thinking about today? I'm happy to help you break down any questions you might have.
+  TIMING   : 172ms
+  ASSERT   : ✓ pattern: help|support|assist|track|health|today|how can
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ SCENARIO: 02_blood_sugar                                                                                            │
+│ Session : 8802                                                                                                      │
+│ Result  : ✓ PASSED                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+  ── Turn 1 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I want to track my blood sugar
+  RESPONSE ← It is a great step to start tracking your blood sugar, as consistent monitoring is one of the most effective ways to understand your metabolic health and spot patterns over time.
+
+To get started, we can set up the Blood Sugar program in your plan. This will allow you to log your readings, set helpful reminders, and view trends as you go.
+
+To make sure the setup is tailored to you, could you let me know if you are currently managing a specific condition like diabetes or pre-diabetes, or if you are tracking for general wellness?
+
+Once we have that, we can follow these simple steps:
+- Navigate to the "My Plan" section on your home screen and select "Add/Edit."
+- Choose "Blood glucose" to activate the program.
+- Follow the prompts to input your details, such as whether you are taking any medications, so the app can provide the most relevant insights for your needs.
+  TIMING   : 202ms
+  ASSERT   : ✓ pattern: goal|health|great|focus|blood sugar|glucose|support|ready|started|help
+
+  ── Turn 2 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → My blood sugar is 120 mg/dL before breakfast
+  RESPONSE ← Could you please let me know what time you took this reading?
+  ACTIONS  : [bloodGlucose] {"value":120,"unit":"mg/dL","type":"before-breakfast"}
+  TIMING   : 253ms
+  ASSERT   : ✓ pattern: blood sugar|glucose|recorded|logged|noted|120|track|update|time|when|date
+
+  ── Turn 3 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I took it at 7:00 AM this morning
+  RESPONSE ← Thank you for sharing that reading from 7:00 AM! It is great to see you keeping up with your morning routine. How are you feeling today?
+  ACTIONS  : [bloodGlucose] {"type":"before-breakfast","unit":"mg/dL","value":120,"dateTime":"2026-05-25T07:00:00.000Z"}
+  TIMING   : 248ms
+  ASSERT   : ✓ pattern: blood sugar|glucose|recorded|logged|noted|thank|updated|7|time|when|date
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ SCENARIO: 03_blood_pressure                                                                                         │
+│ Session : 8803                                                                                                      │
+│ Result  : ✓ PASSED                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+  ── Turn 1 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I want to manage my blood pressure
+  RESPONSE ← It is a great step to focus on managing your blood pressure, as consistent tracking is one of the most effective ways to understand your cardiovascular health.
+
+To get started, we can set up the Blood Pressure program in your plan. This will allow you to log your daily readings, view trends over time, and receive personalized guidance based on your numbers.
+
+If you would like to begin, here is how we can get you set up:
+
+- Go to your "Home Screen" and tap the "Add/Edit" button under "My Plan."
+- Select "Blood pressure" from the list to activate the program.
+- Once it is active, you can start by adding your first reading.
+
+Do you currently have a blood pressure monitor at home that you use to check your levels?
+  TIMING   : 165ms
+  ASSERT   : ✓ pattern: goal|health|great|focus|blood pressure|support|ready|started|help
+
+  ── Turn 2 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → My blood pressure is 120 over 80
+  RESPONSE ← Could you also let me know what time you took this reading?
+  ACTIONS  : [bloodPressure] {"sys":120,"dia":80,"dateTime":"2026-05-25T08:00:00.000Z"}
+  TIMING   : 242ms
+  ASSERT   : ✓ pattern: blood pressure|recorded|logged|noted|120|80|track|update|time|when|date
+
+  ── Turn 3 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I took it at 8:00 AM this morning
+  RESPONSE ← Could you tell me the pulse for your blood_pressure entry?
+  ACTIONS  : [bloodPressure] {"sys":120,"dia":80,"dateTime":"2026-05-25T08:00:00.000Z"}
+  TIMING   : 192ms
+  ASSERT   : ✓ pattern: blood pressure|recorded|logged|noted|thank|updated|8|time|when|date|pulse|heart
+
+  ── Turn 4 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → My pulse was 72
+  RESPONSE ← Thank you for sharing your pulse reading of 72 bpm to go along with your blood pressure reading from this morning. It is great that you are keeping such a close eye on your cardiovascular health; how have you been feeling today?
+  ACTIONS  : [bloodPressure] {"dia":80,"sys":120,"dateTime":"2026-05-25T08:00:00.000Z","pulse":72}
+  TIMING   : 6388ms
+  ASSERT   : ✓ pattern: blood pressure|recorded|logged|noted|thank|updated|pulse|72|heart|saved
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ SCENARIO: 04_hydration                                                                                              │
+│ Session : 8804                                                                                                      │
+│ Result  : ✓ PASSED                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+  ── Turn 1 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I want to track my daily hydration
+  RESPONSE ← It’s a great idea to start tracking your hydration to build more consistency in your daily routine.
+
+The Hydration program is designed to help you do exactly that by keeping your intake top-of-mind and providing simple, actionable insights. You can get started by heading to your "My Plan" section on the home screen and selecting Hydration to activate it.
+
+Once you've set it up, here are a few simple steps to get going:
+
+- Select your current climate and activity level so the app can calculate a personalized daily goal for you.
+- Set up a few reminders to help you stay on track throughout the day.
+- Try logging your first drink to get a feel for how the tracker works.
+
+Would you like help finding the settings to adjust your daily goal once you've activated the program?
+  TIMING   : 5660ms
+  ASSERT   : ✓ pattern: goal|health|great|focus|hydration|water|support|ready|started|help
+
+  ── Turn 2 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I just drank 300ml of water
+  RESPONSE ← Could you please let me know what time you drank it?
+  ACTIONS  : [hydration] {"amountInML":300,"drinkType":"water"}
+  TIMING   : 264ms
+  ASSERT   : ✓ pattern: water|hydration|recorded|logged|noted|300|drink|track|update|time|when|date
+
+  ── Turn 3 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I drank it at 10:00 AM this morning
+  RESPONSE ← Thank you for sharing that! I've noted your 300ml of water from this morning. How are you feeling as you continue your hydration goals for the rest of the day?
+  ACTIONS  : [hydration] {"drinkType":"water","amountInML":300,"dateTime":"2026-05-25T10:00:00.000Z"}
+  TIMING   : 248ms
+  ASSERT   : ✓ pattern: water|hydration|recorded|logged|noted|thank|updated|time|when|date
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ SCENARIO: 05_weight                                                                                                 │
+│ Session : 8805                                                                                                      │
+│ Result  : ✓ PASSED                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+  ── Turn 1 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I want to track my weight
+  RESPONSE ← It's a great idea to start tracking your weight to better understand how your daily habits influence your health over time.
+
+By using the weight management program, you can set a clear goal, calculate a personalized calorie budget, and monitor your progress through regular logging. This structure helps you build sustainable habits rather than focusing on quick fixes.
+
+To get started with this, you can follow these steps:
+
+- Go to your Home Screen and tap the "Add/Edit" button on your "My Plan" section.
+- Select "Weight" to begin the setup flow.
+- Follow the prompts to set your target weight and choose a pace that feels comfortable for your lifestyle.
+
+Once you've set your goal, the app will help you keep track of your progress and provide insights based on your activity and nutrition. Would you like me to explain more about how the calorie targets are calculated once you have your goal set?
+  TIMING   : 179ms
+  ASSERT   : ✓ pattern: goal|health|great|focus|weight|support|ready|started|help
+
+  ── Turn 2 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → My weight today is 68 kg
+  RESPONSE ← Thank you for sharing your weight update of 68 kg today! It's great to see you staying consistent with your tracking. How are you feeling about your progress so far this week?
+  ACTIONS  : [weight] {"weight":68,"unit":"kg","dateTime":"2026-05-25T00:00:00.000Z"}
+  TIMING   : 269ms
+  ASSERT   : ✓ pattern: weight|recorded|logged|noted|68|kg|track|update
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ SCENARIO: 06_exercise                                                                                               │
+│ Session : 8806                                                                                                      │
+│ Result  : ✓ PASSED                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+  ── Turn 1 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I want to track my exercise and activity
+  RESPONSE ← It is great that you are looking to get a clearer picture of your daily movement and exercise.
+
+Tracking your activity is a helpful way to see how your movement contributes to your energy levels and overall fitness goals. In Elfie, you can use the Calorie Burn program to monitor your physical activity, view breakdowns of your progress, and even sync data from your health apps to keep everything in one place.
+
+If you would like to get started, here is a simple way to set it up:
+
+- Head to your "Home Screen" and select "Add/Edit" on your "My Plan" section.
+- Choose "Calorie burn" from the options to activate the tracker.
+- Once it is active, you can select your typical activity level and set a daily goal that feels right for you.
+
+Would you like me to walk you through how to sync your health data or how to log a specific activity manually once you have it set up?
+  TIMING   : 194ms
+  ASSERT   : ✓ pattern: goal|health|great|focus|exercise|activity|fitness|support|ready|started|help
+
+  ── Turn 2 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I went running for 30 minutes this morning
+  RESPONSE ← That is a great way to start your day! Please review the details of your run in the tracker chip below to ensure everything is correct. How are you feeling after your workout?
+  ACTIONS  : [calorieBurn] {"type":"running","durationInMinutes":30,"dateTime":"2026-05-25T08:00:00.000Z"}
+  TIMING   : 286ms
+  ASSERT   : ✓ pattern: run|exercise|activity|recorded|logged|noted|30|minute|track|update
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ SCENARIO: 07_medication                                                                                             │
+│ Session : 8807                                                                                                      │
+│ Result  : ✓ PASSED                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+  ── Turn 1 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I want to track my medication
+  RESPONSE ← It is a great idea to start tracking your medication, as consistency is one of the most effective ways to manage your health routines.
+
+Setting this up in Elfie is straightforward and helps ensure you never miss a dose. To get started, you can head to your "Home Screen" and click the "Add/Edit" button within the "My Plan" section, then select "Medication." From there, you can add your specific medications manually or by using your phone camera to scan your prescription.
+
+Once you have added your medications, you can set your personalized schedule to receive timely reminders. If you would like to get started now, I can walk you through any of those steps, or you can jump right into the app to begin organizing your routine.
+  TIMING   : 221ms
+  ASSERT   : ✓ pattern: goal|health|great|focus|medication|medicine|support|ready|started|help
+
+  ── Turn 2 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I took my blood pressure medication this morning
+  RESPONSE ← BACKEND_SEARCH_DRUG
+  TIMING   : 221ms
+  ASSERT   : ✓ pattern: BACKEND_SEARCH_DRUG|pillbox|medication|medicine|recorded|logged|noted|taken
+
+  POTENTIAL BUGS:
+  ⚠ [CLAIMED_LOG_NO_ACTION_RETURNED] Turn 1: It is a great idea to start tracking your medication, as consistency is one of the most effective ways to manage your health routines.
+
+Setting this up in Elfie is straightforward and helps ensure you
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ SCENARIO: 08_symptom                                                                                                │
+│ Session : 8808                                                                                                      │
+│ Result  : ✓ PASSED                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+  ── Turn 1 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I want to log my symptoms
+  RESPONSE ← I'm here to help you track your symptoms. Could you please tell me what symptoms you are currently experiencing?
+  TIMING   : 1274ms
+  ASSERT   : ✓ pattern: goal|health|great|focus|symptom|support|ready|started|help
+
+  ── Turn 2 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I have a mild headache since this morning
+  RESPONSE ← I am sorry to hear that you have been dealing with a mild headache that started today. It sounds like you have been feeling a bit under the weather, and I appreciate you taking the time to track how you are feeling. For now, try to get some rest in a quiet, dimly lit space and ensure you are staying well-hydrated. If your headache persists, worsens, or you feel concerned, please reach out to a healthcare professional for further advice.
+  ACTIONS  : [symptoms] {"analyzedText":"Detected: Headache","symptoms":[{"symptomId":"SC_0010","detailFields":{"QF_SEVERITY_4":["mild"],"QF_ONSET_TIME":["today"]}}]}
+  TIMING   : 1352ms
+  ASSERT   : ✓ pattern: headache|symptom|recorded|logged|noted|pain|discomfort|track|update
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ SCENARIO: 09_cholesterol                                                                                            │
+│ Session : 8809                                                                                                      │
+│ Result  : ✓ PASSED                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+  ── Turn 1 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → I want to track my cholesterol levels
+  RESPONSE ← It's a great idea to start monitoring your cholesterol, as it's a key part of staying on top of your cardiovascular health.
+
+Since high cholesterol often doesn't show symptoms, keeping a regular record of your lipid panel results—like your LDL, HDL, and triglycerides—is a helpful way to spot trends and stay informed about your heart health over time.
+
+To get started with this in the app, you can follow these steps:
+
+- Go to your "Home Screen" and tap the "Add/Edit" button in the "My Plan" section.
+- Select the Cholesterol program from the list to activate it.
+- Once it's active, you can begin entering your latest test results to see how they compare to standard health guidelines.
+
+Would you like me to explain what some of those specific lipid numbers typically mean, or are you all set to get that set up?
+  TIMING   : 185ms
+  ASSERT   : ✓ pattern: goal|health|great|focus|cholesterol|support|ready|started|help
+
+  ── Turn 2 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → My cholesterol results: LDL 130, HDL 50, triglycerides 150 mg/dL
+  RESPONSE ← Could you please let me know what time you received these results?
+  ACTIONS  : [cholesterol] {"hdlc":50,"ldlc":130,"tg":150,"unit":"mg/dL","dateTime":""}
+  TIMING   : 207ms
+  ASSERT   : ✓ pattern: cholesterol|ldl|hdl|triglyceride|recorded|logged|noted|130|50|150|track|update|time|when|date
+
+  ── Turn 3 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → The results are from today, 2026-05-20
+  RESPONSE ← Thank you for sharing those cholesterol results from May 20th! It's great to have these numbers organized so you can keep an eye on your heart health trends. How are you feeling today, and is this part of a regular check-up routine for you?
+  ACTIONS  : [cholesterol] {"tg":150,"hdlc":50,"ldlc":130,"unit":"mg/dL","dateTime":"2026-05-20T00:00:00.000Z"}
+  TIMING   : 199ms
+  ASSERT   : ✓ pattern: cholesterol|recorded|logged|noted|thank|updated|date|received|when
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ SCENARIO: 10_general_advice                                                                                         │
+│ Session : 8810                                                                                                      │
+│ Result  : ✓ PASSED                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+  ── Turn 1 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  REQUEST  → What should I eat to help lower my blood pressure?
+  RESPONSE ← It is great that you are looking at how your diet can support your blood pressure goals.
+
+While I cannot provide specific medical meal plans, focusing on heart-healthy habits is a powerful way to manage your cardiovascular health. Generally, this involves prioritizing whole foods like fruits, vegetables, and whole grains while being mindful of sodium intake, which can contribute to higher readings.
+
+To help you get started with tracking and managing your health, we can take a few simple steps:
+
+- If you haven't already, you can add the Blood Pressure program to your "My Plan" on the home screen to start logging your daily readings.
+- Once you have a few entries, we can look at your trends to see how your lifestyle choices might be impacting your numbers over time.
+- If you have a blood pressure monitor at home, I can help you set up a routine to ensure you are capturing accurate, consistent data.
+
+Would you like to start by setting up your blood pressure tracking, or would you prefer to discuss some general dietary principles that are often recommended for heart health?
+  TIMING   : 268ms
+  ASSERT   : ✓ pattern: diet|food|eat|sodium|salt|vegetable|fruit|potassium|recommend|suggest|help|blood pressure
+
+════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+POTENTIAL BUGS SUMMARY
+════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+1 potential bug event(s) detected:
+
+Bug type                                 Count      Affected scenarios
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+CLAIMED_LOG_NO_ACTION_RETURNED           1          07_medication
+
+CLAIMED_LOG_NO_ACTION_RETURNED explanation:
+  Bot said it recorded/logged data but no suggestAction was returned in the response.
+  This may indicate the extraction pipeline did not detect structured data from the message.
+
+════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+END OF REPORT
+════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════

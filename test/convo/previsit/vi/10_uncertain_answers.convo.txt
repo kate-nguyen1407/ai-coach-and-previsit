@@ -1,0 +1,49 @@
+Uncertain Answers VI - Not Sure Maybe I Think Prefer Not To Say
+
+#include _opening
+
+#bot
+(?=.*(?:giới tính))(?=.*(?:nam|nữ|chia sẻ|cho biết|của bạn))
+
+#me
+Nữ
+
+#bot
+(?=.*(?:tuổi))(?=.*(?:bao nhiêu|cho biết|chia sẻ|của bạn|hiện tại))
+
+#me
+Khoảng 30, không chắc chắn lắm
+
+#bot
+(?=.*(?:hiểu|ghi nhận|cảm ơn))(?=.*(?:lý do|khám hôm nay|mục đích|chia sẻ|tiếp tục))
+
+#me
+Tôi chỉ cảm thấy không ổn, không chắc điều gì không đúng
+
+#bot
+(?=.*(?:hiểu|ghi nhận|không chắc))(?=.*(?:thông thường|khẩn cấp|triệu chứng|cấp độ))
+
+#me
+Thông thường, tôi nghĩ vậy
+
+#bot
+(?=.*(?:cảm ơn|ghi nhận))(?=.*(?:triệu chứng|mô tả|trải nghiệm|cơn đau|cảm thấy))
+
+#me
+Tôi không biết cách mô tả cơn đau
+
+#bot
+(?=.*(?:hiểu|ghi nhận|không chắc))(?=.*(?:mức độ|cường độ|thang điểm|khi nào|bắt đầu))
+
+#me
+Khoảng 5 trên 10, không chắc chắn
+
+#bot
+(?=.*(?:hiểu|ghi chú|cảm ơn|ghi nhận))(?=.*(?:bắt đầu|khi nào|khởi phát|câu hỏi|bác sĩ|thảo luận|đề xuất|gợi ý))
+
+#me
+Tôi không hoàn toàn chắc điều mình muốn hỏi
+
+#bot
+(?=.*(?:bác sĩ|câu hỏi|gợi ý|đề xuất))(?=.*(?:câu hỏi|hỗ trợ|ghi nhận|visite|thảo luận))
+

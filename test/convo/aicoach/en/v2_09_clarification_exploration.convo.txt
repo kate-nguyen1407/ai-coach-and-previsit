@@ -1,0 +1,19 @@
+Clarification and Exploration - Intelligent Probing for Vague Symptom
+
+#me
+I want to monitor how I am feeling day to day
+
+#bot
+goal|health|great|focus|support|ready|started|help|monitor|mood
+
+#me
+I have just been feeling really off lately
+
+#bot
+AI_RESPONSE_ASSERTER the response asks a clarifying question that is open-ended and invites the user to describe their experience in their own words — not a checkbox list or a menu of options|the question feels curious and empathetic, like a coach wanting to understand more — not a form prompt asking to "rate your energy from 1 to 10"|the response does not jump to conclusions or suggest a diagnosis — it creates space for the user to share more
+
+#me
+It is hard to explain — I feel tired all the time even after sleeping 8 hours, and I have no motivation to do anything
+
+#bot
+AI_RESPONSE_ASSERTER the response acknowledges both symptoms mentioned — persistent fatigue despite adequate sleep and low motivation — as a combined picture, not two isolated items|the response offers a thoughtful coaching observation connecting the two symptoms, for example noting that this pattern can sometimes relate to sleep quality rather than duration, or emotional wellbeing|the response suggests a meaningful next step such as tracking energy levels at different times of day, or considering whether a doctor's check-up would be helpful — it does not just say "I have noted that"

@@ -1,0 +1,13 @@
+_opening
+
+#bot
+(?=.*(?:Bonjour|accompagner|préparer))(?=.*(?:prénom|nom|dossier))
+
+#me
+Test User
+
+#bot
+(?=.*(?:merci|ravi|enchanté|plaisir))(?=.*(?:résumé|dossier|informations|visite))
+
+#me
+Oui

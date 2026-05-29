@@ -1,0 +1,7 @@
+Greeting
+
+#me
+Hello
+
+#bot
+help|support|assist|track|health|today|how can
